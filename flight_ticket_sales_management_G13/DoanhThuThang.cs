@@ -26,7 +26,11 @@ namespace flight_ticket_sales_management_G13
 
         private void btnBaoCao_DTThang_Click(object sender, EventArgs e)
         {
+
+
             int a = int.Parse(cbThang_DTThang.SelectedItem.ToString());
+
+
             int b = int.Parse(txtNam_DTThang.Text);
             ShowCTDTThang(a, b);
 

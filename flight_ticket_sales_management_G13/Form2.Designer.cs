@@ -71,7 +71,7 @@
             this.càiĐặtToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(892, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(892, 30);
             this.menuStrip1.TabIndex = 14;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -83,7 +83,7 @@
             this.adminToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.adminToolStripMenuItem.Image = global::flight_ticket_sales_management_G13.Properties.Resources.admin;
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(87, 24);
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(87, 26);
             this.adminToolStripMenuItem.Text = "Admin";
             // 
             // đổiMậtKhẩuToolStripMenuItem
@@ -104,7 +104,7 @@
             this.quảnLýToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.quảnLýToolStripMenuItem.Image = global::flight_ticket_sales_management_G13.Properties.Resources.manage;
             this.quảnLýToolStripMenuItem.Name = "quảnLýToolStripMenuItem";
-            this.quảnLýToolStripMenuItem.Size = new System.Drawing.Size(95, 24);
+            this.quảnLýToolStripMenuItem.Size = new System.Drawing.Size(95, 26);
             this.quảnLýToolStripMenuItem.Text = "Quản Lý";
             // 
             // traCứuToolStripMenuItem
@@ -112,7 +112,7 @@
             this.traCứuToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.traCứuToolStripMenuItem.Image = global::flight_ticket_sales_management_G13.Properties.Resources.search;
             this.traCứuToolStripMenuItem.Name = "traCứuToolStripMenuItem";
-            this.traCứuToolStripMenuItem.Size = new System.Drawing.Size(93, 24);
+            this.traCứuToolStripMenuItem.Size = new System.Drawing.Size(93, 26);
             this.traCứuToolStripMenuItem.Text = "Tra Cứu";
             // 
             // doanhThuToolStripMenuItem
@@ -123,20 +123,20 @@
             this.doanhThuToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.doanhThuToolStripMenuItem.Image = global::flight_ticket_sales_management_G13.Properties.Resources.report;
             this.doanhThuToolStripMenuItem.Name = "doanhThuToolStripMenuItem";
-            this.doanhThuToolStripMenuItem.Size = new System.Drawing.Size(115, 24);
+            this.doanhThuToolStripMenuItem.Size = new System.Drawing.Size(115, 26);
             this.doanhThuToolStripMenuItem.Text = "Doanh Thu";
             // 
             // doanhThuThángToolStripMenuItem
             // 
             this.doanhThuThángToolStripMenuItem.Name = "doanhThuThángToolStripMenuItem";
-            this.doanhThuThángToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.doanhThuThángToolStripMenuItem.Size = new System.Drawing.Size(203, 26);
             this.doanhThuThángToolStripMenuItem.Text = "Doanh thu tháng";
             this.doanhThuThángToolStripMenuItem.Click += new System.EventHandler(this.doanhThuThángToolStripMenuItem_Click);
             // 
             // doanhThuNămToolStripMenuItem
             // 
             this.doanhThuNămToolStripMenuItem.Name = "doanhThuNămToolStripMenuItem";
-            this.doanhThuNămToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.doanhThuNămToolStripMenuItem.Size = new System.Drawing.Size(203, 26);
             this.doanhThuNămToolStripMenuItem.Text = "Doanh thu năm";
             this.doanhThuNămToolStripMenuItem.Click += new System.EventHandler(this.doanhThuNămToolStripMenuItem_Click);
             // 
@@ -145,7 +145,7 @@
             this.càiĐặtToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.càiĐặtToolStripMenuItem.Image = global::flight_ticket_sales_management_G13.Properties.Resources.icons8_gear_100;
             this.càiĐặtToolStripMenuItem.Name = "càiĐặtToolStripMenuItem";
-            this.càiĐặtToolStripMenuItem.Size = new System.Drawing.Size(92, 24);
+            this.càiĐặtToolStripMenuItem.Size = new System.Drawing.Size(92, 26);
             this.càiĐặtToolStripMenuItem.Text = "Cài Đặt";
             // 
             // button3
@@ -217,6 +217,9 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::flight_ticket_sales_management_G13.Properties.Resources.background;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";

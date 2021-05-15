@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="controller\CTDTNamController.cs" />
     <Compile Include="controller\CTDTThangController.cs" />
     <Compile Include="DataProvider.cs" />
     <Compile Include="DoanhThuNam.cs">
@@ -78,6 +79,7 @@
     <Compile Include="FormHelp.Designer.cs">
       <DependentUpon>FormHelp.cs</DependentUpon>
     </Compile>
+    <Compile Include="model\CTDTNam.cs" />
     <Compile Include="model\CTDTThang.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

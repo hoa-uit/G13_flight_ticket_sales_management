@@ -19,10 +19,10 @@ namespace FlightManagement.Controller
 
         private CheckLogin() { }
 
-        public int Check_Login (string Youremail, string pass)
+        public int Check_Login (string msnv, string pass)
         {
            
-            DataTable table = DataProvider.Instance.ExecuteQuery("exec CheckDangNhap " + Youremail + "," +pass);
+            DataTable table = DataProvider.Instance.ExecuteQuery("exec KIEMTRADANGNHAP " + msnv + "," +pass);
             return table.Rows.Count;
         }
     }

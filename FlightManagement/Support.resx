@@ -117,4 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Trong cuộc sống hiện đại, việc di chuyển giữa các vùng miền thậm chí là giữa các quốc gia không còn là vấn đề quá khó khăn với sự phát triển của cơ sở hạ tầng giao thông vận tải. Và ngành hàng không là một bước tiến lớn. Sự xuất hiện của máy bay giúp con người ta dễ dàng hơn trong đi lại, vận chuyển hàng hóa cũng như giao lưu với bạn bè quốc tế. Theo đó, một vấn đề đã xuất hiện là làm thế nào để quản lí các giao dịch này một cách hệ thống, logic, đơn giản và an toàn.
+ 
+Hiểu được tầm quan trọng nơi đây, nhóm chúng em đã chọn đề tài “Quản lý vé bán máy bay” với mục tiêu tìm hiểu sâu hơn về cách thức quản lý vé bán và thiết kế một phần mềm giúp đại lý nhanh chóng nắm bắt được tình hình hoạt động, tài chính của công ty, từ đó đưa ra một chiến lược kinh doanh hiệu quả cũng như hỗ trợ khách hàng cách tốt hơn.
+
+Nhóm chúng em xin cảm ơn cô Đỗ Thị Thanh Tuyền đã dẫn dắt chúng em, lần đầu tiên được tự tay thiết kế một phần mềm, đi sâu vào từng công đoạn và quá trình thực hiện. Dẫu thế, cũng khó tránh khỏi những thiếu sót nên chúng em cũng mong cô góp ý để đồ án được hoàn thiện hơn.
+
+Một lần nữa, nhóm chúng em xin cảm ơn cô rất nhiều.
+Thành viên thực hiện:
+   _ Ngô Gia Thái
+   _ Hoàng Phạm Kim Lý
+   _ Trần Nhựt
+   _ Nguyễn Duy Hòa
+Phần mềm được viết bằng ngô ngữ c# với công cụ là winform.
+
+
+
+</value>
+  </data>
+  <metadata name="btnClose_support.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

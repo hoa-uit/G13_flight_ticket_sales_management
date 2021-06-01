@@ -16,5 +16,20 @@ namespace FlightManagement
         {
             InitializeComponent();
         }
+
+        private void btnClose_Setting_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

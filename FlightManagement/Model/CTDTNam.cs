@@ -28,12 +28,12 @@ namespace FlightManagement.Model
 
         public CTDTNam(DataRow row)
         {
-            this.Ma_dt_thang = (string)row["MA_DT_THANG"];
-            this.Ma_dt_nam = (string)row["MA_DT_NAM"];
-            this.Thang = (int)row["THANG"];
-            this.Tong_dt_thang = (int)row["TONG_DT_THANG"];
-            this.Sochuyenbay = (int)row["SOCHUYENBAY"];
-            this.Tylethang = (int)row["TYLETHANG"];
+            this.Ma_dt_thang = (string)row["MaDT_Thang"];
+            this.Ma_dt_nam = (string)row["MaDT_Nam"];
+            this.Thang = (int)row["Thang"];
+            this.Tong_dt_thang = (int)row["TongDT_Thang"];
+            this.Sochuyenbay = (int)row["SoChuyenBay"];
+            this.Tylethang = (int)row["TyLeThang"];
         }
 
         public string Ma_dt_thang { get => ma_dt_thang; set => ma_dt_thang = value; }

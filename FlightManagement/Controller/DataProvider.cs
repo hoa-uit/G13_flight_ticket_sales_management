@@ -11,7 +11,7 @@ namespace FlightManagement.Controller
     class DataProvider
     {
         private static DataProvider instance;
-        private string ConnectionSTR = @"Data Source=.\SQLEXPRESS;Initial Catalog=QL_CHUYENBAY;Integrated Security=True";
+        private string ConnectionSTR = @"Data Source=.\SQLEXPRESS;Initial Catalog=QL_CBAY;Integrated Security=True";
 
         public static DataProvider Instance
         {

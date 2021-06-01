@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BanVe1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BanVe1.Designer.cs">
+      <DependentUpon>BanVe1.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChangePassword.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,11 +63,16 @@
       <DependentUpon>ChangePassword.cs</DependentUpon>
     </Compile>
     <Compile Include="Controller\CheckLogin.cs" />
+    <Compile Include="Controller\ChuyenBayController.cs" />
     <Compile Include="Controller\CTDTNamController.cs" />
     <Compile Include="Controller\CTDTThangController.cs" />
     <Compile Include="Controller\DataProvider.cs" />
-    <Compile Include="Controller\GetListMSNV.cs" />
+    <Compile Include="Controller\GetListMaNV.cs" />
+    <Compile Include="Controller\GheController.cs" />
+    <Compile Include="Controller\NhanVienController.cs" />
+    <Compile Include="Controller\SanBayController.cs" />
     <Compile Include="Controller\SendCode.cs" />
+    <Compile Include="Controller\ThamSoController.cs" />
     <Compile Include="DoanhThuNam.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,10 +97,33 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\ChuyenBay.cs" />
     <Compile Include="Model\CTDTNam.cs" />
     <Compile Include="Model\CTDTThang.cs" />
+    <Compile Include="Model\Ghe.cs" />
+    <Compile Include="Model\NhanVien.cs" />
+    <Compile Include="Model\SanBay.cs" />
+    <Compile Include="Model\ThamSo.cs" />
+    <Compile Include="NhanLichChuyenBay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanLichChuyenBay.Designer.cs">
+      <DependentUpon>NhanLichChuyenBay.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLSanBay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLSanBay.Designer.cs">
+      <DependentUpon>QLSanBay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyNhanVien.Designer.cs">
+      <DependentUpon>QuanLyNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Setting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +136,9 @@
     <Compile Include="Support.Designer.cs">
       <DependentUpon>Support.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BanVe1.resx">
+      <DependentUpon>BanVe1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChangePassword.resx">
       <DependentUpon>ChangePassword.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +154,9 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NhanLichChuyenBay.resx">
+      <DependentUpon>NhanLichChuyenBay.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -127,6 +167,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="QLSanBay.resx">
+      <DependentUpon>QLSanBay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyNhanVien.resx">
+      <DependentUpon>QuanLyNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Setting.resx">
       <DependentUpon>Setting.cs</DependentUpon>
     </EmbeddedResource>
@@ -298,6 +344,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\đàn ông.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-fighter-jet-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-fighter-jet-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ảnh phi công.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-paper-plane-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-airplane-take-off-100 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-paper-plane-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-paper-plane-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ảnh không nền cô gái.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conifer-booking-a-flight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cherry-happy-to-flight.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

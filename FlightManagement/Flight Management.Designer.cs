@@ -41,14 +41,18 @@
             this.btnDoanhthuthang_main = new System.Windows.Forms.Button();
             this.btnRevenue_main = new System.Windows.Forms.Button();
             this.pnSearch = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btnTraCuuHanhKhach_search = new System.Windows.Forms.Button();
+            this.btnTraCuuVe_search = new System.Windows.Forms.Button();
+            this.btnTraCuuChuyenBay_Search = new System.Windows.Forms.Button();
             this.btnSearch_main = new System.Windows.Forms.Button();
             this.pnManage = new System.Windows.Forms.Panel();
+            this.btnSanBay_Manage = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnBanVe_manage = new System.Windows.Forms.Button();
+            this.btnNhanLich_manage = new System.Windows.Forms.Button();
             this.btnMangement_main = new System.Windows.Forms.Button();
             this.pnAmin = new System.Windows.Forms.Panel();
+            this.btnQuanLyNhanVien_main = new System.Windows.Forms.Button();
             this.btnThoat_main = new System.Windows.Forms.Button();
             this.btnDoiMatKhau_main = new System.Windows.Forms.Button();
             this.btnAdmin_main = new System.Windows.Forms.Button();
@@ -71,6 +75,7 @@
             this.lbTenTaiKhoan = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pnChildForm = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.button10 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -100,7 +105,7 @@
             // panel1
             // 
             this.panel1.AllowDrop = true;
-            this.panel1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
             this.panel1.Controls.Add(this.pnSide);
             this.panel1.Controls.Add(this.btnSupport_main);
             this.panel1.Controls.Add(this.button1);
@@ -124,7 +129,7 @@
             // pnSide
             // 
             this.pnSide.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.pnSide.Location = new System.Drawing.Point(3, 282);
+            this.pnSide.Location = new System.Drawing.Point(0, 72);
             this.pnSide.Name = "pnSide";
             this.pnSide.Size = new System.Drawing.Size(10, 70);
             this.pnSide.TabIndex = 2;
@@ -138,12 +143,12 @@
             this.btnSupport_main.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSupport_main.Image = global::FlightManagement.Properties.Resources.icons8_customer_support_50;
             this.btnSupport_main.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSupport_main.Location = new System.Drawing.Point(0, 1084);
+            this.btnSupport_main.Location = new System.Drawing.Point(0, 1304);
             this.btnSupport_main.Name = "btnSupport_main";
             this.btnSupport_main.Padding = new System.Windows.Forms.Padding(20, 10, 0, 0);
             this.btnSupport_main.Size = new System.Drawing.Size(299, 70);
             this.btnSupport_main.TabIndex = 12;
-            this.btnSupport_main.Text = "Support  ";
+            this.btnSupport_main.Text = "Hỗ trợ      ";
             this.btnSupport_main.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSupport_main.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnSupport_main.UseVisualStyleBackColor = true;
@@ -181,12 +186,12 @@
             this.btnSetting_main.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSetting_main.Image = global::FlightManagement.Properties.Resources.setting2;
             this.btnSetting_main.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSetting_main.Location = new System.Drawing.Point(0, 1014);
+            this.btnSetting_main.Location = new System.Drawing.Point(0, 1234);
             this.btnSetting_main.Name = "btnSetting_main";
             this.btnSetting_main.Padding = new System.Windows.Forms.Padding(20, 10, 0, 0);
             this.btnSetting_main.Size = new System.Drawing.Size(299, 70);
             this.btnSetting_main.TabIndex = 9;
-            this.btnSetting_main.Text = "Setting  ";
+            this.btnSetting_main.Text = "Quy định  ";
             this.btnSetting_main.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSetting_main.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnSetting_main.UseVisualStyleBackColor = true;
@@ -198,13 +203,14 @@
             this.pnRevenue.Controls.Add(this.btnDoanhthunam_main);
             this.pnRevenue.Controls.Add(this.btnDoanhthuthang_main);
             this.pnRevenue.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnRevenue.Location = new System.Drawing.Point(0, 900);
+            this.pnRevenue.Location = new System.Drawing.Point(0, 1120);
             this.pnRevenue.Name = "pnRevenue";
             this.pnRevenue.Size = new System.Drawing.Size(299, 114);
             this.pnRevenue.TabIndex = 8;
             // 
             // btnDoanhthunam_main
             // 
+            this.btnDoanhthunam_main.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnDoanhthunam_main.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDoanhthunam_main.FlatAppearance.BorderSize = 0;
             this.btnDoanhthunam_main.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -218,11 +224,12 @@
             this.btnDoanhthunam_main.TabIndex = 1;
             this.btnDoanhthunam_main.Text = "  Doanh thu năm";
             this.btnDoanhthunam_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnDoanhthunam_main.UseVisualStyleBackColor = true;
+            this.btnDoanhthunam_main.UseVisualStyleBackColor = false;
             this.btnDoanhthunam_main.Click += new System.EventHandler(this.btnDoanhthunam_main_Click);
             // 
             // btnDoanhthuthang_main
             // 
+            this.btnDoanhthuthang_main.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnDoanhthuthang_main.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDoanhthuthang_main.FlatAppearance.BorderSize = 0;
             this.btnDoanhthuthang_main.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -236,7 +243,7 @@
             this.btnDoanhthuthang_main.TabIndex = 0;
             this.btnDoanhthuthang_main.Text = "  Doanh thu tháng";
             this.btnDoanhthuthang_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnDoanhthuthang_main.UseVisualStyleBackColor = true;
+            this.btnDoanhthuthang_main.UseVisualStyleBackColor = false;
             this.btnDoanhthuthang_main.Click += new System.EventHandler(this.btnDoanhthuthang_main_Click);
             // 
             // btnRevenue_main
@@ -248,12 +255,12 @@
             this.btnRevenue_main.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnRevenue_main.Image = global::FlightManagement.Properties.Resources.report2;
             this.btnRevenue_main.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRevenue_main.Location = new System.Drawing.Point(0, 830);
+            this.btnRevenue_main.Location = new System.Drawing.Point(0, 1050);
             this.btnRevenue_main.Name = "btnRevenue_main";
             this.btnRevenue_main.Padding = new System.Windows.Forms.Padding(20, 10, 0, 0);
             this.btnRevenue_main.Size = new System.Drawing.Size(299, 70);
             this.btnRevenue_main.TabIndex = 7;
-            this.btnRevenue_main.Text = "Revenue";
+            this.btnRevenue_main.Text = "Doanh thu ";
             this.btnRevenue_main.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRevenue_main.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnRevenue_main.UseVisualStyleBackColor = true;
@@ -262,30 +269,68 @@
             // pnSearch
             // 
             this.pnSearch.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.pnSearch.Controls.Add(this.button9);
+            this.pnSearch.Controls.Add(this.btnTraCuuHanhKhach_search);
+            this.pnSearch.Controls.Add(this.btnTraCuuVe_search);
+            this.pnSearch.Controls.Add(this.btnTraCuuChuyenBay_Search);
             this.pnSearch.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnSearch.Location = new System.Drawing.Point(0, 770);
+            this.pnSearch.Location = new System.Drawing.Point(0, 876);
             this.pnSearch.Name = "pnSearch";
-            this.pnSearch.Size = new System.Drawing.Size(299, 60);
+            this.pnSearch.Size = new System.Drawing.Size(299, 174);
             this.pnSearch.TabIndex = 6;
             // 
-            // button9
+            // btnTraCuuHanhKhach_search
             // 
-            this.button9.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.Location = new System.Drawing.Point(0, 0);
-            this.button9.Name = "button9";
-            this.button9.Padding = new System.Windows.Forms.Padding(40, 10, 0, 0);
-            this.button9.Size = new System.Drawing.Size(299, 60);
-            this.button9.TabIndex = 0;
-            this.button9.Text = "  Tra cứu chuyến bay";
-            this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button9.UseVisualStyleBackColor = false;
+            this.btnTraCuuHanhKhach_search.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnTraCuuHanhKhach_search.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnTraCuuHanhKhach_search.FlatAppearance.BorderSize = 0;
+            this.btnTraCuuHanhKhach_search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTraCuuHanhKhach_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTraCuuHanhKhach_search.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnTraCuuHanhKhach_search.Image = ((System.Drawing.Image)(resources.GetObject("btnTraCuuHanhKhach_search.Image")));
+            this.btnTraCuuHanhKhach_search.Location = new System.Drawing.Point(0, 120);
+            this.btnTraCuuHanhKhach_search.Name = "btnTraCuuHanhKhach_search";
+            this.btnTraCuuHanhKhach_search.Padding = new System.Windows.Forms.Padding(40, 10, 0, 0);
+            this.btnTraCuuHanhKhach_search.Size = new System.Drawing.Size(299, 60);
+            this.btnTraCuuHanhKhach_search.TabIndex = 2;
+            this.btnTraCuuHanhKhach_search.Text = "  Tra cứu hành khách";
+            this.btnTraCuuHanhKhach_search.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTraCuuHanhKhach_search.UseVisualStyleBackColor = false;
+            // 
+            // btnTraCuuVe_search
+            // 
+            this.btnTraCuuVe_search.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnTraCuuVe_search.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnTraCuuVe_search.FlatAppearance.BorderSize = 0;
+            this.btnTraCuuVe_search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTraCuuVe_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTraCuuVe_search.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnTraCuuVe_search.Image = ((System.Drawing.Image)(resources.GetObject("btnTraCuuVe_search.Image")));
+            this.btnTraCuuVe_search.Location = new System.Drawing.Point(0, 60);
+            this.btnTraCuuVe_search.Name = "btnTraCuuVe_search";
+            this.btnTraCuuVe_search.Padding = new System.Windows.Forms.Padding(12, 10, 0, 0);
+            this.btnTraCuuVe_search.Size = new System.Drawing.Size(299, 60);
+            this.btnTraCuuVe_search.TabIndex = 1;
+            this.btnTraCuuVe_search.Text = "  Tra cứu vé";
+            this.btnTraCuuVe_search.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTraCuuVe_search.UseVisualStyleBackColor = false;
+            // 
+            // btnTraCuuChuyenBay_Search
+            // 
+            this.btnTraCuuChuyenBay_Search.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnTraCuuChuyenBay_Search.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnTraCuuChuyenBay_Search.FlatAppearance.BorderSize = 0;
+            this.btnTraCuuChuyenBay_Search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTraCuuChuyenBay_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTraCuuChuyenBay_Search.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnTraCuuChuyenBay_Search.Image = ((System.Drawing.Image)(resources.GetObject("btnTraCuuChuyenBay_Search.Image")));
+            this.btnTraCuuChuyenBay_Search.Location = new System.Drawing.Point(0, 0);
+            this.btnTraCuuChuyenBay_Search.Name = "btnTraCuuChuyenBay_Search";
+            this.btnTraCuuChuyenBay_Search.Padding = new System.Windows.Forms.Padding(40, 10, 0, 0);
+            this.btnTraCuuChuyenBay_Search.Size = new System.Drawing.Size(299, 60);
+            this.btnTraCuuChuyenBay_Search.TabIndex = 0;
+            this.btnTraCuuChuyenBay_Search.Text = "  Tra cứu chuyến bay";
+            this.btnTraCuuChuyenBay_Search.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTraCuuChuyenBay_Search.UseVisualStyleBackColor = false;
             // 
             // btnSearch_main
             // 
@@ -296,12 +341,12 @@
             this.btnSearch_main.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSearch_main.Image = global::FlightManagement.Properties.Resources.search2;
             this.btnSearch_main.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSearch_main.Location = new System.Drawing.Point(0, 700);
+            this.btnSearch_main.Location = new System.Drawing.Point(0, 806);
             this.btnSearch_main.Name = "btnSearch_main";
             this.btnSearch_main.Padding = new System.Windows.Forms.Padding(20, 10, 0, 0);
             this.btnSearch_main.Size = new System.Drawing.Size(299, 70);
             this.btnSearch_main.TabIndex = 5;
-            this.btnSearch_main.Text = "Search   ";
+            this.btnSearch_main.Text = "Tra cứu     ";
             this.btnSearch_main.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSearch_main.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnSearch_main.UseVisualStyleBackColor = true;
@@ -310,66 +355,89 @@
             // pnManage
             // 
             this.pnManage.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.pnManage.Controls.Add(this.btnSanBay_Manage);
             this.pnManage.Controls.Add(this.button7);
-            this.pnManage.Controls.Add(this.button6);
-            this.pnManage.Controls.Add(this.button5);
+            this.pnManage.Controls.Add(this.btnBanVe_manage);
+            this.pnManage.Controls.Add(this.btnNhanLich_manage);
             this.pnManage.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnManage.Location = new System.Drawing.Point(0, 539);
+            this.pnManage.Location = new System.Drawing.Point(0, 584);
             this.pnManage.Name = "pnManage";
-            this.pnManage.Size = new System.Drawing.Size(299, 161);
+            this.pnManage.Size = new System.Drawing.Size(299, 222);
             this.pnManage.TabIndex = 4;
+            // 
+            // btnSanBay_Manage
+            // 
+            this.btnSanBay_Manage.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnSanBay_Manage.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSanBay_Manage.FlatAppearance.BorderSize = 0;
+            this.btnSanBay_Manage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSanBay_Manage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSanBay_Manage.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnSanBay_Manage.Image = ((System.Drawing.Image)(resources.GetObject("btnSanBay_Manage.Image")));
+            this.btnSanBay_Manage.Location = new System.Drawing.Point(0, 155);
+            this.btnSanBay_Manage.Name = "btnSanBay_Manage";
+            this.btnSanBay_Manage.Padding = new System.Windows.Forms.Padding(25, 10, 0, 0);
+            this.btnSanBay_Manage.Size = new System.Drawing.Size(299, 61);
+            this.btnSanBay_Manage.TabIndex = 3;
+            this.btnSanBay_Manage.Text = "  Quản lý sân bay";
+            this.btnSanBay_Manage.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSanBay_Manage.UseVisualStyleBackColor = false;
+            this.btnSanBay_Manage.Click += new System.EventHandler(this.btnSanBay_Manage_Click);
             // 
             // button7
             // 
+            this.button7.BackColor = System.Drawing.SystemColors.Highlight;
             this.button7.Dock = System.Windows.Forms.DockStyle.Top;
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.Location = new System.Drawing.Point(0, 100);
+            this.button7.Location = new System.Drawing.Point(0, 94);
             this.button7.Name = "button7";
             this.button7.Padding = new System.Windows.Forms.Padding(20, 10, 0, 0);
-            this.button7.Size = new System.Drawing.Size(299, 50);
+            this.button7.Size = new System.Drawing.Size(299, 61);
             this.button7.TabIndex = 2;
             this.button7.Text = "  Phiếu đặt chỗ";
             this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button7.UseVisualStyleBackColor = true;
+            this.button7.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // btnBanVe_manage
             // 
-            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.Location = new System.Drawing.Point(0, 50);
-            this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.button6.Size = new System.Drawing.Size(299, 50);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "  Bán vé";
-            this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnBanVe_manage.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnBanVe_manage.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBanVe_manage.FlatAppearance.BorderSize = 0;
+            this.btnBanVe_manage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBanVe_manage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBanVe_manage.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnBanVe_manage.Image = ((System.Drawing.Image)(resources.GetObject("btnBanVe_manage.Image")));
+            this.btnBanVe_manage.Location = new System.Drawing.Point(0, 47);
+            this.btnBanVe_manage.Name = "btnBanVe_manage";
+            this.btnBanVe_manage.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.btnBanVe_manage.Size = new System.Drawing.Size(299, 47);
+            this.btnBanVe_manage.TabIndex = 1;
+            this.btnBanVe_manage.Text = "  Bán vé";
+            this.btnBanVe_manage.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnBanVe_manage.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnNhanLich_manage
             // 
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(0, 0);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(45, 10, 0, 0);
-            this.button5.Size = new System.Drawing.Size(299, 50);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "  Nhận lịch chuyến bay";
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button5.UseVisualStyleBackColor = true;
-       
+            this.btnNhanLich_manage.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnNhanLich_manage.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnNhanLich_manage.FlatAppearance.BorderSize = 0;
+            this.btnNhanLich_manage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNhanLich_manage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNhanLich_manage.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnNhanLich_manage.Image = ((System.Drawing.Image)(resources.GetObject("btnNhanLich_manage.Image")));
+            this.btnNhanLich_manage.Location = new System.Drawing.Point(0, 0);
+            this.btnNhanLich_manage.Name = "btnNhanLich_manage";
+            this.btnNhanLich_manage.Padding = new System.Windows.Forms.Padding(45, 10, 0, 0);
+            this.btnNhanLich_manage.Size = new System.Drawing.Size(299, 47);
+            this.btnNhanLich_manage.TabIndex = 0;
+            this.btnNhanLich_manage.Text = "  Nhận lịch chuyến bay";
+            this.btnNhanLich_manage.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnNhanLich_manage.UseVisualStyleBackColor = false;
+            this.btnNhanLich_manage.Click += new System.EventHandler(this.btnNhanLich_manage_Click);
             // 
             // btnMangement_main
             // 
@@ -380,12 +448,12 @@
             this.btnMangement_main.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnMangement_main.Image = global::FlightManagement.Properties.Resources.manage2;
             this.btnMangement_main.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMangement_main.Location = new System.Drawing.Point(0, 469);
+            this.btnMangement_main.Location = new System.Drawing.Point(0, 514);
             this.btnMangement_main.Name = "btnMangement_main";
             this.btnMangement_main.Padding = new System.Windows.Forms.Padding(20, 10, 0, 0);
             this.btnMangement_main.Size = new System.Drawing.Size(299, 70);
             this.btnMangement_main.TabIndex = 3;
-            this.btnMangement_main.Text = "Manage  ";
+            this.btnMangement_main.Text = "Quản lý     ";
             this.btnMangement_main.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMangement_main.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnMangement_main.UseVisualStyleBackColor = true;
@@ -394,48 +462,69 @@
             // pnAmin
             // 
             this.pnAmin.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.pnAmin.Controls.Add(this.btnQuanLyNhanVien_main);
             this.pnAmin.Controls.Add(this.btnThoat_main);
             this.pnAmin.Controls.Add(this.btnDoiMatKhau_main);
             this.pnAmin.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnAmin.Location = new System.Drawing.Point(0, 352);
+            this.pnAmin.Location = new System.Drawing.Point(0, 344);
             this.pnAmin.Name = "pnAmin";
-            this.pnAmin.Size = new System.Drawing.Size(299, 117);
+            this.pnAmin.Size = new System.Drawing.Size(299, 170);
             this.pnAmin.TabIndex = 2;
+            // 
+            // btnQuanLyNhanVien_main
+            // 
+            this.btnQuanLyNhanVien_main.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnQuanLyNhanVien_main.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnQuanLyNhanVien_main.FlatAppearance.BorderSize = 0;
+            this.btnQuanLyNhanVien_main.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQuanLyNhanVien_main.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuanLyNhanVien_main.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnQuanLyNhanVien_main.Image = ((System.Drawing.Image)(resources.GetObject("btnQuanLyNhanVien_main.Image")));
+            this.btnQuanLyNhanVien_main.Location = new System.Drawing.Point(0, 0);
+            this.btnQuanLyNhanVien_main.Name = "btnQuanLyNhanVien_main";
+            this.btnQuanLyNhanVien_main.Padding = new System.Windows.Forms.Padding(40, 10, 0, 0);
+            this.btnQuanLyNhanVien_main.Size = new System.Drawing.Size(299, 58);
+            this.btnQuanLyNhanVien_main.TabIndex = 2;
+            this.btnQuanLyNhanVien_main.Text = "  Quản lý nhân viên";
+            this.btnQuanLyNhanVien_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnQuanLyNhanVien_main.UseMnemonic = false;
+            this.btnQuanLyNhanVien_main.UseVisualStyleBackColor = false;
+            this.btnQuanLyNhanVien_main.Click += new System.EventHandler(this.btnQuanLyNhanVien_main_Click);
             // 
             // btnThoat_main
             // 
-            this.btnThoat_main.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnThoat_main.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnThoat_main.FlatAppearance.BorderSize = 0;
             this.btnThoat_main.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThoat_main.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat_main.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnThoat_main.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat_main.Image")));
-            this.btnThoat_main.Location = new System.Drawing.Point(0, 53);
+            this.btnThoat_main.Location = new System.Drawing.Point(0, 49);
             this.btnThoat_main.Name = "btnThoat_main";
             this.btnThoat_main.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
-            this.btnThoat_main.Size = new System.Drawing.Size(299, 50);
+            this.btnThoat_main.Size = new System.Drawing.Size(299, 59);
             this.btnThoat_main.TabIndex = 1;
             this.btnThoat_main.Text = "  Thoát";
             this.btnThoat_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnThoat_main.UseVisualStyleBackColor = true;
+            this.btnThoat_main.UseVisualStyleBackColor = false;
             this.btnThoat_main.Click += new System.EventHandler(this.btnThoat_main_Click);
             // 
             // btnDoiMatKhau_main
             // 
-            this.btnDoiMatKhau_main.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDoiMatKhau_main.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnDoiMatKhau_main.FlatAppearance.BorderSize = 0;
             this.btnDoiMatKhau_main.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDoiMatKhau_main.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDoiMatKhau_main.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnDoiMatKhau_main.Image = ((System.Drawing.Image)(resources.GetObject("btnDoiMatKhau_main.Image")));
-            this.btnDoiMatKhau_main.Location = new System.Drawing.Point(0, 0);
+            this.btnDoiMatKhau_main.Location = new System.Drawing.Point(0, 107);
             this.btnDoiMatKhau_main.Name = "btnDoiMatKhau_main";
             this.btnDoiMatKhau_main.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
-            this.btnDoiMatKhau_main.Size = new System.Drawing.Size(299, 53);
+            this.btnDoiMatKhau_main.Size = new System.Drawing.Size(299, 60);
             this.btnDoiMatKhau_main.TabIndex = 0;
             this.btnDoiMatKhau_main.Text = "  Đổi mật khẩu";
             this.btnDoiMatKhau_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnDoiMatKhau_main.UseVisualStyleBackColor = true;
+            this.btnDoiMatKhau_main.UseVisualStyleBackColor = false;
             this.btnDoiMatKhau_main.Click += new System.EventHandler(this.btnDoiMatKhau_main_Click);
             // 
             // btnAdmin_main
@@ -447,12 +536,12 @@
             this.btnAdmin_main.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnAdmin_main.Image = global::FlightManagement.Properties.Resources.admin2;
             this.btnAdmin_main.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdmin_main.Location = new System.Drawing.Point(0, 282);
+            this.btnAdmin_main.Location = new System.Drawing.Point(0, 274);
             this.btnAdmin_main.Name = "btnAdmin_main";
             this.btnAdmin_main.Padding = new System.Windows.Forms.Padding(20, 10, 0, 0);
             this.btnAdmin_main.Size = new System.Drawing.Size(299, 70);
             this.btnAdmin_main.TabIndex = 1;
-            this.btnAdmin_main.Text = "Admin     ";
+            this.btnAdmin_main.Text = "Admin       ";
             this.btnAdmin_main.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAdmin_main.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnAdmin_main.UseVisualStyleBackColor = true;
@@ -468,7 +557,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(299, 282);
+            this.panel2.Size = new System.Drawing.Size(299, 274);
             this.panel2.TabIndex = 0;
             // 
             // pictureBox3
@@ -495,7 +584,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(84, 212);
+            this.label1.Location = new System.Drawing.Point(77, 221);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(143, 17);
             this.label1.TabIndex = 1;
@@ -529,9 +618,9 @@
             this.btnMinimize_main.FlatAppearance.BorderSize = 0;
             this.btnMinimize_main.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize_main.Image = global::FlightManagement.Properties.Resources.icons8_minimize_window_100;
-            this.btnMinimize_main.Location = new System.Drawing.Point(1541, 9);
+            this.btnMinimize_main.Location = new System.Drawing.Point(1551, 11);
             this.btnMinimize_main.Name = "btnMinimize_main";
-            this.btnMinimize_main.Size = new System.Drawing.Size(37, 38);
+            this.btnMinimize_main.Size = new System.Drawing.Size(33, 33);
             this.btnMinimize_main.TabIndex = 5;
             this.btnMinimize_main.UseVisualStyleBackColor = true;
             this.btnMinimize_main.Click += new System.EventHandler(this.btnMinimize_main_Click);
@@ -553,16 +642,16 @@
             this.btnClose_main.FlatAppearance.BorderSize = 0;
             this.btnClose_main.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose_main.Image = global::FlightManagement.Properties.Resources.icons8_close_window_100;
-            this.btnClose_main.Location = new System.Drawing.Point(1584, 9);
+            this.btnClose_main.Location = new System.Drawing.Point(1594, 12);
             this.btnClose_main.Name = "btnClose_main";
-            this.btnClose_main.Size = new System.Drawing.Size(37, 38);
+            this.btnClose_main.Size = new System.Drawing.Size(37, 30);
             this.btnClose_main.TabIndex = 4;
             this.btnClose_main.UseVisualStyleBackColor = true;
             this.btnClose_main.Click += new System.EventHandler(this.btnClose_main_Click);
             // 
             // pnCenter
             // 
-            this.pnCenter.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.pnCenter.BackColor = System.Drawing.SystemColors.HotTrack;
             this.pnCenter.Controls.Add(this.pictureBox7);
             this.pnCenter.Controls.Add(this.lbDate_main);
             this.pnCenter.Controls.Add(this.lbTime_main);
@@ -629,7 +718,6 @@
             this.lbQuyen.Size = new System.Drawing.Size(83, 20);
             this.lbQuyen.TabIndex = 3;
             this.lbQuyen.Text = "Personel";
-            this.lbQuyen.Click += new System.EventHandler(this.lbQuyen_Click);
             // 
             // label4
             // 
@@ -666,6 +754,7 @@
             // 
             // pnChildForm
             // 
+            this.pnChildForm.Controls.Add(this.panel3);
             this.pnChildForm.Controls.Add(this.button10);
             this.pnChildForm.Controls.Add(this.button8);
             this.pnChildForm.Controls.Add(this.button4);
@@ -677,6 +766,14 @@
             this.pnChildForm.Name = "pnChildForm";
             this.pnChildForm.Size = new System.Drawing.Size(1643, 961);
             this.pnChildForm.TabIndex = 5;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panel3.Location = new System.Drawing.Point(562, 635);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1044, 232);
+            this.panel3.TabIndex = 6;
             // 
             // button10
             // 
@@ -714,9 +811,10 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::FlightManagement.Properties.Resources.icons8_airplane_96;
-            this.pictureBox6.Location = new System.Drawing.Point(716, 16);
+            this.pictureBox6.Location = new System.Drawing.Point(212, 80);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(114, 111);
+            this.pictureBox6.Size = new System.Drawing.Size(149, 146);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 1;
             this.pictureBox6.TabStop = false;
             // 
@@ -795,12 +893,12 @@
         private System.Windows.Forms.Button btnDoanhthuthang_main;
         private System.Windows.Forms.Button btnRevenue_main;
         private System.Windows.Forms.Panel pnSearch;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btnTraCuuChuyenBay_Search;
         private System.Windows.Forms.Button btnSearch_main;
         private System.Windows.Forms.Panel pnManage;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnBanVe_manage;
+        private System.Windows.Forms.Button btnNhanLich_manage;
         private System.Windows.Forms.Button btnMangement_main;
         private System.Windows.Forms.Panel pnAmin;
         private System.Windows.Forms.Button btnThoat_main;
@@ -837,5 +935,10 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.Button btnQuanLyNhanVien_main;
+        private System.Windows.Forms.Button btnSanBay_Manage;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button btnTraCuuVe_search;
+        private System.Windows.Forms.Button btnTraCuuHanhKhach_search;
     }
 }

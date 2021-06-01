@@ -117,4 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="panel1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="pictureBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bunifuThinButton21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAd4AAAA0CAYAAAAkNlmTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAMmSURBVHhe7dw/aJR3HMdxRzfHjm52062bdJIugovg4ODW
+        xUGkyw0Wq4MFKVKEVlAkk2SwmCKlGVqoSygGudQz0fPC9bQxvaBncpaGYFC+8nvu6ZkjMbT17je9XvCG
+        cP/WD/f8nsuObrcbkiQpT4ZXkqSMGV5JkjJmeCVJypjhlSQpY4ZXkqSMbTu8S8+W4+qthTh8qRH7z9+P
+        3ZVa7Pj0jiRJ2lDax7STBy/W49ufF+Jxe3nLXU29c3i/u71YfNCRy80Yn34evzz8K1qdlwEADEr7mHZy
+        YmYljo21iv1MA7zVvm4a3rTSR6/MxydfN6L9Yr38SADg31pZfVUM8IEL9Xi40BnY2YHhTaO798xsjE11
+        yrcCAP/X5Gw3Pjo3F7XW2/EdGN70TdfoAsDwpEvQ6fx30/CmM910eRkAGK7KjSfxxfeP3g5vuns5HQQ7
+        0wWA4Vtbfx37zs7FdONpb3jTnVfpEBgAGI0vJ9txcrzZG970u6N0CzQAMBozf6wWNzAXw7vnVC0etNfK
+        pwCAYUuXm3cer/aGd9eJavGbIwBgdIr/dJWGN/0BAIyW4QWAjAwvAGRkeAEgI8MLABkZXgDIyPACQEaG
+        FwAyMrwAkJHhBYCMDC8AZGR4ASAjwwsAGRleAMjI8AJARoYXADIyvACQkeEFgIwMLwBk1B/encersbb+
+        unwYABiF/vDurtSi1XlZPgwAjEJ/eA9cqMfkbLd8GAAYtgfttdhzqtYb3tMTrajceFI+BQAM29hUJ45e
+        me8Nb63ViQ8/v+ecFwBG5NA383FtarE3vKnK9d/j9M3F8mkAYFjGp5/H4UuNYm/7w7v0bDn2n78fvzb/
+        Ll8GALyv9ov14qry4/by4PCmphtPY9/ZueIAGAB4P2l0P/6qHj9U2/2tHRje1E93l2Lvmdk49+Of5dsA
+        gP9qYmal+Ka7cXRTm4Y3lS47nxxvFiud7sJKiw0AbG9l9VVxnnvkcjMOXqz3Ly9vbMvh/ae00unW5w8+
+        +633o19JkvTOdp2oFjdRXb21sOWuprYdXkmSNNwMryRJGTO8kiRlzPBKkpQxwytJUra68QbkOyxG5pPk
+        NQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="btnClose_Setting.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

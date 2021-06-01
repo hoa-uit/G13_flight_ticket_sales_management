@@ -113,9 +113,29 @@ namespace FlightManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ảnh_không_nền_cô_gái {
+            get {
+                object obj = ResourceManager.GetObject("ảnh không nền cô gái", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ẢNH_NỀN {
             get {
                 object obj = ResourceManager.GetObject("ẢNH NỀN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ảnh_phi_công {
+            get {
+                object obj = ResourceManager.GetObject("ảnh phi công", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +173,29 @@ namespace FlightManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cherry_happy_to_flight {
+            get {
+                object obj = ResourceManager.GetObject("cherry-happy-to-flight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap close {
             get {
                 object obj = ResourceManager.GetObject("close", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap conifer_booking_a_flight {
+            get {
+                object obj = ResourceManager.GetObject("conifer-booking-a-flight", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -226,6 +266,16 @@ namespace FlightManagement.Properties {
         internal static System.Drawing.Bitmap icons8_airplane_take_off_100 {
             get {
                 object obj = ResourceManager.GetObject("icons8-airplane-take-off-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_airplane_take_off_100__2_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-airplane-take-off-100 (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,6 +403,26 @@ namespace FlightManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_fighter_jet_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-fighter-jet-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_fighter_jet_96 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-fighter-jet-96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_instagram_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-instagram-64", resourceCulture);
@@ -416,6 +486,36 @@ namespace FlightManagement.Properties {
         internal static System.Drawing.Bitmap icons8_pain_point_502 {
             get {
                 object obj = ResourceManager.GetObject("icons8-pain-point-502", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_paper_plane_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-paper-plane-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_paper_plane_64__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-paper-plane-64 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_paper_plane_641 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-paper-plane-641", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

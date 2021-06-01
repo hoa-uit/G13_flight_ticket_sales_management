@@ -13,10 +13,11 @@ namespace FlightManagement
 {
     public partial class Login : Form
     {
-        public static string randomcode_createaccount;
+       
         public static string randomcode_forgotpassword;
         public static string msnv;
         public static string mk;
+       
         public Login()
         {
             InitializeComponent();
@@ -25,30 +26,13 @@ namespace FlightManagement
 
         private void CustommerDesign()
         {
-            pnSide2.Visible = true;
-            pnSide3.Visible = false;
-            pnLogin.BringToFront();
-        }
-        private void btnLogin_login_Click(object sender, EventArgs e)
-        {
-            pnSide2.Visible = true;
-            pnSide3.Visible = false;
-     
-            pnLogin.BringToFront();
+              pnLogin.BringToFront();
         }
 
-        private void btnSignup_login_Click(object sender, EventArgs e)
-        {
-            pnSide2.Visible = false;
-            pnSide3.Visible = true;
-     
-            pnSignup.BringToFront();
-        }
 
         private void label14_Click_1(object sender, EventArgs e)
         {
-            pnSide2.Visible = false;
-            pnSide3.Visible = false;
+           
             pnForgotPassword.BringToFront();
         }
 
@@ -57,14 +41,25 @@ namespace FlightManagement
             this.Close();
         }
 
-        private void pnLogin_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+       
         private void Login_Load(object sender, EventArgs e)
         {
+            txtPassword_login.UseSystemPasswordChar = true;
             txtPassword_login.Text = Properties.Settings.Default.Password;
             txtMSNV_login.Text = Properties.Settings.Default.Msnv;
+        }
+        private void lblogin_forgotpass_Click(object sender, EventArgs e)
+        {
+            pnLogin.BringToFront();
+        }
+
+        private void lbkhac_login_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Flight_Management.Quyen = "Custommer";
+            Flight_Management.UserName = "Custommer";
+            Flight_Management fm = new Flight_Management();
+            fm.Show();
         }
 
         #region xử lý phần nhấn nút đăng nhập
@@ -98,22 +93,25 @@ namespace FlightManagement
             }    
             else
             {
-                string Youremail = txtMSNV_login.Text;
+               
+                string Msnv = txtMSNV_login.Text;
                 string Password = txtPassword_login.Text;
                
 
-                int a = CheckLogin.Instance.Check_Login(Youremail, Password);
+                int a = CheckLogin.Instance.Check_Login(Msnv, Password);
+                
 
 
                 if (a > 0)
                 {
 
                     // có tài khoản và đăng nhập thành công
-                    Flight_Management.quyen = DataProvider.Instance.ExecuteQuery("EXEC GETQUYEN " + Youremail + "," + Password).Rows[0][0].ToString();
-                    Flight_Management.UserName = txtMSNV_login.Text;
+                    Flight_Management.Quyen = DataProvider.Instance.ExecuteQuery("EXEC LAYQUYEN " + Msnv ).Rows[0][0].ToString();
+                    Flight_Management.UserName = DataProvider.Instance.ExecuteQuery("EXEC LAYTENNV " + Msnv).Rows[0][0].ToString();
+                    Flight_Management.MaNV = txtMSNV_login.Text;
                     this.Hide();
                     Flight_Management frm = new Flight_Management();
-                    frm.ShowDialog();
+                    frm.Show();
 
                 }
                 else
@@ -128,7 +126,7 @@ namespace FlightManagement
         }
         private void txtPassword_login_TextChanged(object sender, EventArgs e)
         {
-            if (txtPassword_login.Text == "" || txtPassword_login.Text == null)
+            if (string.IsNullOrEmpty(txtPassword_login.Text))
             {
                 error2.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
                 error2.SetError(txtPassword_login, "Please enter your username.");
@@ -142,7 +140,7 @@ namespace FlightManagement
         private void txtUserName_login_TextChanged(object sender, EventArgs e)
         {
 
-            if (txtMSNV_login.Text == "" || txtMSNV_login.Text == null)
+            if (string.IsNullOrEmpty(txtMSNV_login.Text))
             {
                 error1.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
                 error1.SetError(txtMSNV_login, "Please enter your username.");
@@ -153,28 +151,66 @@ namespace FlightManagement
             }
         }
 
+        private void cbShowpass_login_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cbShowpass_login.Checked)
+            {
+                txtPassword_login.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                txtPassword_login.UseSystemPasswordChar = true;
+            }
+        }
+
+
         #endregion
 
 
-        #region xử lý phần nhấn nút đăng kí
-
-        private void btnSendCode_singup_Click(object sender, EventArgs e)
+        #region xử lý phần quên mật khẩu
+        private void btnSendCode_forgotpass_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(txtFristName_signup.Text) || string.IsNullOrEmpty(txtLastName_signup.Text) || string.IsNullOrEmpty(txtUserName_signup.Text)
-               || string.IsNullOrEmpty(txtPassword_signup.Text) || string.IsNullOrEmpty(txtConfirmpass_signup.Text) || cbChucVu_signup.SelectedIndex == -1)
+            if (string.IsNullOrEmpty(txtManv_forgotpass.Text) || string.IsNullOrEmpty(txtPassword_forgotpass.Text) || string.IsNullOrEmpty(txtConfirmpass_forgotpass.Text))
             {
-                MessageBox.Show("Please enter full your information", "Invalid", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                if (string.IsNullOrEmpty(txtManv_forgotpass.Text) && string.IsNullOrEmpty(txtPassword_forgotpass.Text) && string.IsNullOrEmpty(txtConfirmpass_forgotpass.Text))
+                {
+                    errorEmail_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                    errorEmail_forgotpassword.SetError(txtManv_forgotpass, "Please enter your email");
+                    errorNewpass_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                    errorNewpass_forgotpassword.SetError(txtPassword_forgotpass, "please enter your password");
+                    errorconfirm_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                    errorconfirm_forgotpassword.SetError(txtConfirmpass_forgotpass, "please enter your confirm");
+                }
+                else
+                {
+                    if (string.IsNullOrEmpty(txtManv_forgotpass.Text))
+                    {
+                        errorEmail_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                        errorEmail_forgotpassword.SetError(txtManv_forgotpass, "Please enter your email");
+                    }
+                    if (string.IsNullOrEmpty(txtPassword_forgotpass.Text))
+                    {
+                        errorNewpass_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                        errorNewpass_forgotpassword.SetError(txtPassword_forgotpass, "please enter your password");
+                    }
+                    if (string.IsNullOrEmpty(txtConfirmpass_forgotpass.Text))
+                    {
+                        errorconfirm_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                        errorconfirm_forgotpassword.SetError(txtConfirmpass_forgotpass, "please enter your confirm");
+                    }
+                }
+
             }
-            else if (txtPassword_signup.Text != txtConfirmpass_signup.Text)
+            else if (txtPassword_forgotpass.Text != txtConfirmpass_forgotpass.Text)
             {
-                errorConfirmPass.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
-                errorConfirmPass.SetError(txtConfirmpass_signup, "error password");
+                errorconfirm_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                errorconfirm_forgotpassword.SetError(txtConfirmpass_forgotpass, "Your confirm password is incorrect !");
             }
             else
             {
                 int flag = 0;
-                List<string> dsaccount = GetListMSNV.Instance.ListMSNV_Account();
-                string msnv = txtUserName_signup.Text;
+                List<string> dsaccount = GetListMaNV.Instance.ListMSNV_Account();
+                string msnv = txtManv_forgotpass.Text;
                 foreach (string item in dsaccount)
                 {
                     if (item == msnv)
@@ -182,134 +218,10 @@ namespace FlightManagement
                         flag = 1;
                     }
                 }
-                if (flag == 0)
-                {
-                    string to = (txtUserName_signup.Text).ToString() + "@gm.uit.edu.vn";
-                    Random rand = new Random();
-                    randomcode_createaccount = (rand.Next(999999)).ToString();
-                    int x = SendCode.Instance.SendMail(to, randomcode_createaccount);
-                    if (x == 1)
-                    {
-                        MessageBox.Show("Send code successfully!");
-                    }
-                    else if (x == 0)
-                    {
-                        MessageBox.Show("Send code successfully! Please check your email.");
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Tài khoản đã tồn tại!","Invalid",MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }    
-            }
-        }
-        private void btnRegister_signup_Click_1(object sender, EventArgs e)
-        {
-           if (randomcode_createaccount == txtCode_signup.Text)
-            {
-                string fristname = txtFristName_signup.Text;
-                string lastname = txtLastName_signup.Text;
-                string username = txtUserName_signup.Text;
-                string password = txtPassword_signup.Text;
-                string confirmpass = txtConfirmpass_signup.Text;
-                string chucvu = cbChucVu_signup.SelectedItem.ToString();
-                string query = string.Format("INSERT INTO ACCOUNT VALUES (N'{0}', N'{1}', '{2}' ,'{3}','{4}')", fristname, lastname, username, password, chucvu);
-                int a = DataProvider.Instance.ExecuteNonQuery(query);
-
-                if (a > 0)
-                {
-                    Flight_Management.UserName = fristname + " " + lastname;
-                    Flight_Management.quyen = cbChucVu_signup.SelectedItem.ToString();
-                    MessageBox.Show("Tạo tài khoản thành công !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                this.Hide();
-                Flight_Management f2 = new Flight_Management();
-                f2.ShowDialog();
-            }
-           else
-            {
-                error1.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
-                error1.SetError(txtCode_signup, "Your code is incorrect!");
-            }    
-               
-             
-           
-        }
-
-        private void txtConfirmPass_signup_TextChanged(object sender, EventArgs e)
-        {
-            if (txtConfirmpass_signup.Text == "" || txtConfirmpass_signup.Text == null)
-            {
-                errorConfirmPass.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
-                errorConfirmPass.SetError(txtConfirmpass_signup, "Please enter your username.");
-            }
-            else
-            {
-                errorConfirmPass.SetError(txtConfirmpass_signup, "");
-            }
-        }
-
-       
-
-
-        #endregion
-
-
-        #region xử lý phần nhấn nút save trong forgotpassword
-        private void btnSendCode_forgotpassword_Click(object sender, EventArgs e)
-        {
-            if (string.IsNullOrEmpty(txtMSNV_signup.Text) || string.IsNullOrEmpty(txtNewPassWord_forgotpassword.Text) || string.IsNullOrEmpty(txtConfirmPassword_forgotpassword.Text))
-            {
-                if (string.IsNullOrEmpty(txtMSNV_signup.Text) && string.IsNullOrEmpty(txtNewPassWord_forgotpassword.Text) && string.IsNullOrEmpty(txtConfirmPassword_forgotpassword.Text))
-                {
-                    errorEmail_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
-                    errorEmail_forgotpassword.SetError(txtMSNV_signup, "Please enter your email");
-                    errorNewpass_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
-                    errorNewpass_forgotpassword.SetError(txtNewPassWord_forgotpassword, "please enter your password");
-                    errorconfirm_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
-                    errorconfirm_forgotpassword.SetError(txtConfirmPassword_forgotpassword, "please enter your confirm");
-                }    
-                else
-                {
-                    if (string.IsNullOrEmpty(txtMSNV_signup.Text))
-                    {
-                        errorEmail_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
-                        errorEmail_forgotpassword.SetError(txtMSNV_signup, "Please enter your email");
-                    }    
-                    if (string.IsNullOrEmpty(txtNewPassWord_forgotpassword.Text))
-                    {
-                        errorNewpass_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
-                        errorNewpass_forgotpassword.SetError(txtNewPassWord_forgotpassword, "please enter your password");
-                    }    
-                    if (string.IsNullOrEmpty(txtConfirmPassword_forgotpassword.Text))
-                    {
-                        errorconfirm_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
-                        errorconfirm_forgotpassword.SetError(txtConfirmPassword_forgotpassword, "please enter your confirm");
-                    }
-                }    
-
-            }   
-            else if (txtNewPassWord_forgotpassword.Text != txtConfirmPassword_forgotpassword.Text)
-            {
-                errorconfirm_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
-                errorconfirm_forgotpassword.SetError(txtConfirmPassword_forgotpassword, "Your confirm password is incorrect !");
-            }   
-            else 
-            {
-                int flag = 0;
-                List<string> dsaccount = GetListMSNV.Instance.ListMSNV_Account();
-                string msnv = txtMSNV_signup.Text;
-                foreach ( string item in dsaccount)
-                {
-                    if (item == msnv)
-                    {
-                        flag = 1;
-                    }    
-                }    
                 if (flag == 1)
                 {
-                  
-                    string to = (txtMSNV_signup.Text).ToString()+ "@gm.uit.edu.vn";
+                    MessageBox.Show("Xin chờ trong giây lát");
+                    string to = (txtManv_forgotpass.Text).ToString() + "@gm.uit.edu.vn";
                     Random rand = new Random();
                     randomcode_forgotpassword = (rand.Next(999999)).ToString();
                     int x = SendCode.Instance.SendMail(to, randomcode_forgotpassword);
@@ -321,69 +233,30 @@ namespace FlightManagement
                     {
                         MessageBox.Show("không thành công");
                     }
-                }    
+                }
                 else
                 {
-                    MessageBox.Show("Your account is not exist");
-                }    
-               
-            }    
-           
+                    MessageBox.Show("MSNV is incorrect");
+                }
+
+            }
+
         }
 
-        private void txtEmail_forgotpassword_TextChanged(object sender, EventArgs e)
+        private void btnSave_forgotpass_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(txtMSNV_signup.Text))
-            {
-
-                errorEmail_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
-                errorEmail_forgotpassword.SetError(txtMSNV_signup, "Please enter your email");
-            }    
-            else
-            {
-                errorEmail_forgotpassword.SetError(txtMSNV_signup, "");
-            }    
-        }
-
-        private void txtNewPassWord_forgotpassword_TextChanged(object sender, EventArgs e)
-        {
-            if (string.IsNullOrEmpty(txtNewPassWord_forgotpassword.Text))
-            {
-                errorNewpass_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
-                errorNewpass_forgotpassword.SetError(txtNewPassWord_forgotpassword, "please enter your password");
-            }   
-            else
-            {
-                errorNewpass_forgotpassword.SetError(txtNewPassWord_forgotpassword, "");
-            }    
-        }
-
-        private void txtConfirmPassword_forgotpassword_TextChanged(object sender, EventArgs e)
-        {
-            if (string.IsNullOrEmpty(txtConfirmPassword_forgotpassword.Text))
-            {
-                errorconfirm_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
-                errorconfirm_forgotpassword.SetError(txtConfirmPassword_forgotpassword, "please enter your confirm");
-            }    
-            else
-            {
-                errorconfirm_forgotpassword.SetError(txtConfirmPassword_forgotpassword, "");
-            }    
-        }
-
-        private void btnSave_forgotpassword_Click(object sender, EventArgs e)
-        {
-            if (txtCode_forgotpassword.Text == randomcode_forgotpassword)
+            if (txtCode_forgotpass.Text == randomcode_forgotpassword)
             {
                 // lưu lại pass mới 
-                string newpass = txtNewPassWord_forgotpassword.Text;
-                string email = txtMSNV_signup.Text;
-                string query = string.Format("UPDATE ACCOUNT SET PASS = '{0}' WHERE EMAIL = '{1}' ", newpass, email);
+                string newpass = txtPassword_forgotpass.Text;
+                string Msnv = txtManv_forgotpass.Text;
+                string query = string.Format("UPDATE TAIKHOANDANHNHAP SET Matkhau = '{0}' WHERE MaNhanVien = '{1}' ", newpass, Msnv);
                 int a = DataProvider.Instance.ExecuteNonQuery(query);
                 if (a > 0)
                 {
-                    Flight_Management.UserName = txtMSNV_signup.Text;
-                    Flight_Management.quyen = DataProvider.Instance.ExecuteQuery("EXEC GETQUYEN " + email + "," + newpass).Rows[0][0].ToString();
+                    Flight_Management.UserName = DataProvider.Instance.ExecuteQuery("EXEC LAYTENNV " + Msnv).Rows[0][0].ToString();
+                    Flight_Management.Quyen = DataProvider.Instance.ExecuteQuery("EXEC LAYQUYEN " + Msnv).Rows[0][0].ToString();
+                    Flight_Management.MaNV = txtManv_forgotpass.Text;
                     MessageBox.Show("Reset password successfully");
                     this.Hide();
                     Flight_Management fm = new Flight_Management();
@@ -402,7 +275,44 @@ namespace FlightManagement
 
         }
 
+        private void txtManv_forgotpass_TextChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtManv_forgotpass.Text))
+            {
 
+                errorEmail_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                errorEmail_forgotpassword.SetError(txtManv_forgotpass, "Please enter your email");
+            }
+            else
+            {
+                errorEmail_forgotpassword.SetError(txtManv_forgotpass, "");
+            }
+        }
+
+        private void txtPassword_forgotpass_TextChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtPassword_forgotpass.Text))
+            {
+                errorNewpass_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                errorNewpass_forgotpassword.SetError(txtPassword_forgotpass, "please enter your password");
+            }
+            else
+            {
+                errorNewpass_forgotpassword.SetError(txtPassword_forgotpass, "");
+            }
+        }
+        private void txtConfirmpass_signup_TextChanged_1(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtConfirmpass_forgotpass.Text))
+            {
+                errorconfirm_forgotpassword.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                errorconfirm_forgotpassword.SetError(txtConfirmpass_forgotpass, "please enter your confirm");
+            }
+            else
+            {
+                errorconfirm_forgotpassword.SetError(txtConfirmpass_forgotpass, "");
+            }
+        }
 
         #endregion
 

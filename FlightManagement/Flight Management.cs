@@ -12,8 +12,9 @@ namespace FlightManagement
 {
     public partial class Flight_Management : Form
     {
-        public static string quyen;
+        public static string Quyen;
         public static string UserName;
+        public static string MaNV;
         public Flight_Management()
         {
             InitializeComponent();
@@ -64,8 +65,11 @@ namespace FlightManagement
 
         private void btnSupport_main_Click(object sender, EventArgs e)
         {
+            HideSubMenu();
+            OpenChildForm(new Support());
             pnSide.Height = btnSupport_main.Height;
             pnSide.Top = btnSupport_main.Top;
+           
         }
 
         private void btnMangement_main_Click(object sender, EventArgs e)
@@ -94,6 +98,7 @@ namespace FlightManagement
 
         private void btnSetting_main_Click(object sender, EventArgs e)
         {
+            HideSubMenu();
             OpenChildForm(new Setting());
             pnSide.Height = btnSetting_main.Height;
             pnSide.Top = btnSetting_main.Top;
@@ -101,12 +106,14 @@ namespace FlightManagement
 
         private void Flight_Management_Load(object sender, EventArgs e)
         {
+            pnSide.Height = btnAdmin_main.Height;
+            pnSide.Top = btnAdmin_main.Top;
             timer1.Start();
             lbTime_main.Text = DateTime.Now.ToLongTimeString();
             lbDate_main.Text = DateTime.Now.ToLongDateString();
-            lbQuyen.Text = quyen;
+            lbQuyen.Text = Quyen;
             lbTenTaiKhoan.Text = UserName;
-            if (quyen == "Custommer")
+            if (Quyen == "Custommer")
             {
                 btnAdmin_main.Visible = false;
                 pnAmin.Visible = false;
@@ -116,11 +123,11 @@ namespace FlightManagement
                 pnRevenue.Visible = false;
                 btnSetting_main.Visible = false;
             }    
-            if (quyen == "Personel")
+            if (Quyen == "Personel")
             {
 
             }   
-            if (quyen == "Mangement")
+            if (Quyen == "Mangement")
             {
 
             }
@@ -151,6 +158,8 @@ namespace FlightManagement
             child.Show();
         }
 
+       
+
         private void btnDoanhthuthang_main_Click(object sender, EventArgs e)
         {
             OpenChildForm(new DoanhThuThang());
@@ -163,11 +172,7 @@ namespace FlightManagement
             HideSubMenu();
         }
 
-        private void lbQuyen_Click(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void timer1_Tick(object sender, EventArgs e)
         {
             lbTime_main.Text = DateTime.Now.ToLongTimeString();
@@ -184,10 +189,26 @@ namespace FlightManagement
         private void btnDoiMatKhau_main_Click(object sender, EventArgs e)
         {
             HideSubMenu();
-            ChangePassword fmDoiMk = new ChangePassword();
-            fmDoiMk.Show();
+            OpenChildForm(new ChangePassword());
         }
 
-        
+        private void btnQuanLyNhanVien_main_Click(object sender, EventArgs e)
+        {
+            HideSubMenu();
+            OpenChildForm(new QuanLyNhanVien());
+        }
+
+       
+        private void btnSanBay_Manage_Click(object sender, EventArgs e)
+        {
+            HideSubMenu();
+            OpenChildForm(new QLSanBay());
+        }
+
+        private void btnNhanLich_manage_Click(object sender, EventArgs e)
+        {
+            HideSubMenu();
+            OpenChildForm(new NhanLichChuyenBay());
+        }
     }
 }

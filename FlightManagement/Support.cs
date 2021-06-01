@@ -16,10 +16,13 @@ namespace FlightManagement
         {
             InitializeComponent();
         }
+ 
 
-        private void Support_Load(object sender, EventArgs e)
+        private void btnClose_support_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
+
+       
     }
 }

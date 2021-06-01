@@ -21,12 +21,12 @@ namespace FlightManagement.Model
 
         public CTDTThang(DataRow row)
         {
-            this.Id = (string)row["MACTDT"];
-            this.Ma_dt_thang = (string)row["MA_DT_THANG"];
-            this.Macb = (string)row["MACB"];
-            this.Sove = (int)row["SOVE"];
-            this.Doanhthu1 = (int)row["DOANHTHU"];
-            this.Tyletungchuyenbay1 = (int)row["TYLETUNGCHUYENBAY"];
+            this.Id = (string)row["MaCTDT"];
+            this.Ma_dt_thang = (string)row["MaDT_Thang"];
+            this.Macb = (string)row["MaChuyenBay"];
+            this.Sove = (int)row["SoVe"];
+            this.Doanhthu1 = (int)row["DoanhThu"];
+            this.Tyletungchuyenbay1 = (int)row["TyLeTungCB"];
 
         }
         public string Id { get => id; set => id = value; }

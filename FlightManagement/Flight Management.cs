@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace FlightManagement
 {
+    
     public partial class Flight_Management : Form
     {
         public static string Quyen;
@@ -144,8 +145,8 @@ namespace FlightManagement
 
         }
 
-        private Form activeForm = null;
-        private void OpenChildForm(Form child)
+        public Form activeForm = null;
+        public void OpenChildForm(Form child)
         {
             if (activeForm != null)
                 activeForm = null;
@@ -210,5 +211,7 @@ namespace FlightManagement
             HideSubMenu();
             OpenChildForm(new NhanLichChuyenBay());
         }
+
+       
     }
 }

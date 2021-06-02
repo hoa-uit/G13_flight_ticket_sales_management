@@ -56,6 +56,10 @@
             this.cbQuyen_TTNV = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnSua_QLNV = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuThinButton24 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.gbThemNV = new System.Windows.Forms.GroupBox();
             this.cbGioiTinh_ThemNV = new System.Windows.Forms.ComboBox();
             this.btnSave_ThemNhanVien = new System.Windows.Forms.Button();
@@ -75,10 +79,12 @@
             this.txtSDT_ThemNV = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.gbXoaNV_QLNV = new System.Windows.Forms.GroupBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bynXoa_XoaNV = new System.Windows.Forms.Button();
             this.txtMaNV_XoaNV = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.gbSuaQuyen_QLNV = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cbQuyen_suaquyen = new System.Windows.Forms.ComboBox();
             this.lb12 = new System.Windows.Forms.Label();
             this.btnCapNhat_SuaQuyen = new System.Windows.Forms.Button();
@@ -86,29 +92,28 @@
             this.label25 = new System.Windows.Forms.Label();
             this.errorQuyen_suaquyen = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorMaNV_SuaQuyen = new System.Windows.Forms.ErrorProvider(this.components);
-            this.bunifuThinButton22 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.btnSua_QLNV = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton24 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton23 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnTim_QLNV = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnClose_QLNV = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button10 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
+            this.errorMaNV_Tim = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorRegexMaNV = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvNhanVien_QLNV)).BeginInit();
             this.gbThongTinNhanVien_QLNV.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.gbThemNV.SuspendLayout();
             this.gbXoaNV_QLNV.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.gbSuaQuyen_QLNV.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorQuyen_suaquyen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorMaNV_SuaQuyen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorMaNV_Tim)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorRegexMaNV)).BeginInit();
             this.SuspendLayout();
             // 
             // dtgvNhanVien_QLNV
@@ -287,10 +292,11 @@
             // 
             // txtTim_QLNV
             // 
-            this.txtTim_QLNV.Location = new System.Drawing.Point(84, 125);
+            this.txtTim_QLNV.Location = new System.Drawing.Point(282, 132);
             this.txtTim_QLNV.Name = "txtTim_QLNV";
-            this.txtTim_QLNV.Size = new System.Drawing.Size(334, 22);
+            this.txtTim_QLNV.Size = new System.Drawing.Size(249, 22);
             this.txtTim_QLNV.TabIndex = 35;
+            this.txtTim_QLNV.TextChanged += new System.EventHandler(this.txtTim_QLNV_TextChanged);
             // 
             // gbThongTinNhanVien_QLNV
             // 
@@ -356,6 +362,110 @@
             this.groupBox2.Size = new System.Drawing.Size(420, 287);
             this.groupBox2.TabIndex = 42;
             this.groupBox2.TabStop = false;
+            // 
+            // bunifuThinButton22
+            // 
+            this.bunifuThinButton22.ActiveBorderThickness = 1;
+            this.bunifuThinButton22.ActiveCornerRadius = 20;
+            this.bunifuThinButton22.ActiveFillColor = System.Drawing.SystemColors.HotTrack;
+            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.White;
+            this.bunifuThinButton22.BackColor = System.Drawing.SystemColors.Control;
+            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
+            this.bunifuThinButton22.ButtonText = "Xem tất cả nhân viên";
+            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton22.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuThinButton22.IdleBorderThickness = 3;
+            this.bunifuThinButton22.IdleCornerRadius = 20;
+            this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton22.IdleForecolor = System.Drawing.SystemColors.HotTrack;
+            this.bunifuThinButton22.IdleLineColor = System.Drawing.SystemColors.HotTrack;
+            this.bunifuThinButton22.Location = new System.Drawing.Point(60, 9);
+            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton22.Name = "bunifuThinButton22";
+            this.bunifuThinButton22.Size = new System.Drawing.Size(311, 55);
+            this.bunifuThinButton22.TabIndex = 37;
+            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton22.Click += new System.EventHandler(this.bunifuThinButton22_Click);
+            // 
+            // btnSua_QLNV
+            // 
+            this.btnSua_QLNV.ActiveBorderThickness = 1;
+            this.btnSua_QLNV.ActiveCornerRadius = 20;
+            this.btnSua_QLNV.ActiveFillColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSua_QLNV.ActiveForecolor = System.Drawing.Color.White;
+            this.btnSua_QLNV.ActiveLineColor = System.Drawing.Color.White;
+            this.btnSua_QLNV.BackColor = System.Drawing.SystemColors.Control;
+            this.btnSua_QLNV.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSua_QLNV.BackgroundImage")));
+            this.btnSua_QLNV.ButtonText = "Sửa quyền";
+            this.btnSua_QLNV.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSua_QLNV.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSua_QLNV.ForeColor = System.Drawing.Color.SeaGreen;
+            this.btnSua_QLNV.IdleBorderThickness = 3;
+            this.btnSua_QLNV.IdleCornerRadius = 20;
+            this.btnSua_QLNV.IdleFillColor = System.Drawing.Color.White;
+            this.btnSua_QLNV.IdleForecolor = System.Drawing.SystemColors.HotTrack;
+            this.btnSua_QLNV.IdleLineColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSua_QLNV.Location = new System.Drawing.Point(60, 219);
+            this.btnSua_QLNV.Margin = new System.Windows.Forms.Padding(5);
+            this.btnSua_QLNV.Name = "btnSua_QLNV";
+            this.btnSua_QLNV.Size = new System.Drawing.Size(311, 55);
+            this.btnSua_QLNV.TabIndex = 40;
+            this.btnSua_QLNV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnSua_QLNV.Click += new System.EventHandler(this.btnSua_QLNV_Click);
+            // 
+            // bunifuThinButton24
+            // 
+            this.bunifuThinButton24.ActiveBorderThickness = 1;
+            this.bunifuThinButton24.ActiveCornerRadius = 20;
+            this.bunifuThinButton24.ActiveFillColor = System.Drawing.SystemColors.HotTrack;
+            this.bunifuThinButton24.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton24.ActiveLineColor = System.Drawing.Color.White;
+            this.bunifuThinButton24.BackColor = System.Drawing.SystemColors.Control;
+            this.bunifuThinButton24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton24.BackgroundImage")));
+            this.bunifuThinButton24.ButtonText = "Xóa nhân viên";
+            this.bunifuThinButton24.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton24.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton24.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuThinButton24.IdleBorderThickness = 3;
+            this.bunifuThinButton24.IdleCornerRadius = 20;
+            this.bunifuThinButton24.IdleFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton24.IdleForecolor = System.Drawing.SystemColors.HotTrack;
+            this.bunifuThinButton24.IdleLineColor = System.Drawing.SystemColors.HotTrack;
+            this.bunifuThinButton24.Location = new System.Drawing.Point(60, 149);
+            this.bunifuThinButton24.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton24.Name = "bunifuThinButton24";
+            this.bunifuThinButton24.Size = new System.Drawing.Size(311, 55);
+            this.bunifuThinButton24.TabIndex = 39;
+            this.bunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton24.Click += new System.EventHandler(this.bunifuThinButton24_Click);
+            // 
+            // bunifuThinButton23
+            // 
+            this.bunifuThinButton23.ActiveBorderThickness = 1;
+            this.bunifuThinButton23.ActiveCornerRadius = 20;
+            this.bunifuThinButton23.ActiveFillColor = System.Drawing.SystemColors.HotTrack;
+            this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.White;
+            this.bunifuThinButton23.BackColor = System.Drawing.SystemColors.Control;
+            this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
+            this.bunifuThinButton23.ButtonText = "Thêm nhân viên";
+            this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton23.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuThinButton23.IdleBorderThickness = 3;
+            this.bunifuThinButton23.IdleCornerRadius = 20;
+            this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton23.IdleForecolor = System.Drawing.SystemColors.HotTrack;
+            this.bunifuThinButton23.IdleLineColor = System.Drawing.SystemColors.HotTrack;
+            this.bunifuThinButton23.Location = new System.Drawing.Point(60, 76);
+            this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton23.Name = "bunifuThinButton23";
+            this.bunifuThinButton23.Size = new System.Drawing.Size(311, 55);
+            this.bunifuThinButton23.TabIndex = 38;
+            this.bunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton23.Click += new System.EventHandler(this.bunifuThinButton23_Click);
             // 
             // gbThemNV
             // 
@@ -549,6 +659,15 @@
             this.gbXoaNV_QLNV.TabStop = false;
             this.gbXoaNV_QLNV.Text = "Xóa nhân viên:";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::FlightManagement.Properties.Resources.icons8_paper_plane_64__1_;
+            this.pictureBox2.Location = new System.Drawing.Point(826, 42);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(123, 105);
+            this.pictureBox2.TabIndex = 43;
+            this.pictureBox2.TabStop = false;
+            // 
             // bynXoa_XoaNV
             // 
             this.bynXoa_XoaNV.BackColor = System.Drawing.SystemColors.HotTrack;
@@ -593,6 +712,16 @@
             this.gbSuaQuyen_QLNV.TabIndex = 44;
             this.gbSuaQuyen_QLNV.TabStop = false;
             this.gbSuaQuyen_QLNV.Text = "Sửa quyền:";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::FlightManagement.Properties.Resources.icons8_fighter_jet_96;
+            this.pictureBox1.Location = new System.Drawing.Point(838, 110);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(99, 93);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 45;
+            this.pictureBox1.TabStop = false;
             // 
             // cbQuyen_suaquyen
             // 
@@ -652,110 +781,6 @@
             // 
             this.errorMaNV_SuaQuyen.ContainerControl = this;
             // 
-            // bunifuThinButton22
-            // 
-            this.bunifuThinButton22.ActiveBorderThickness = 1;
-            this.bunifuThinButton22.ActiveCornerRadius = 20;
-            this.bunifuThinButton22.ActiveFillColor = System.Drawing.SystemColors.HotTrack;
-            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.White;
-            this.bunifuThinButton22.BackColor = System.Drawing.SystemColors.Control;
-            this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
-            this.bunifuThinButton22.ButtonText = "Xem";
-            this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton22.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton22.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton22.IdleBorderThickness = 3;
-            this.bunifuThinButton22.IdleCornerRadius = 20;
-            this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton22.IdleForecolor = System.Drawing.SystemColors.HotTrack;
-            this.bunifuThinButton22.IdleLineColor = System.Drawing.SystemColors.HotTrack;
-            this.bunifuThinButton22.Location = new System.Drawing.Point(87, 9);
-            this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton22.Name = "bunifuThinButton22";
-            this.bunifuThinButton22.Size = new System.Drawing.Size(247, 55);
-            this.bunifuThinButton22.TabIndex = 37;
-            this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton22.Click += new System.EventHandler(this.bunifuThinButton22_Click);
-            // 
-            // btnSua_QLNV
-            // 
-            this.btnSua_QLNV.ActiveBorderThickness = 1;
-            this.btnSua_QLNV.ActiveCornerRadius = 20;
-            this.btnSua_QLNV.ActiveFillColor = System.Drawing.SystemColors.HotTrack;
-            this.btnSua_QLNV.ActiveForecolor = System.Drawing.Color.White;
-            this.btnSua_QLNV.ActiveLineColor = System.Drawing.Color.White;
-            this.btnSua_QLNV.BackColor = System.Drawing.SystemColors.Control;
-            this.btnSua_QLNV.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSua_QLNV.BackgroundImage")));
-            this.btnSua_QLNV.ButtonText = "Sửa";
-            this.btnSua_QLNV.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSua_QLNV.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSua_QLNV.ForeColor = System.Drawing.Color.SeaGreen;
-            this.btnSua_QLNV.IdleBorderThickness = 3;
-            this.btnSua_QLNV.IdleCornerRadius = 20;
-            this.btnSua_QLNV.IdleFillColor = System.Drawing.Color.White;
-            this.btnSua_QLNV.IdleForecolor = System.Drawing.SystemColors.HotTrack;
-            this.btnSua_QLNV.IdleLineColor = System.Drawing.SystemColors.HotTrack;
-            this.btnSua_QLNV.Location = new System.Drawing.Point(87, 219);
-            this.btnSua_QLNV.Margin = new System.Windows.Forms.Padding(5);
-            this.btnSua_QLNV.Name = "btnSua_QLNV";
-            this.btnSua_QLNV.Size = new System.Drawing.Size(247, 55);
-            this.btnSua_QLNV.TabIndex = 40;
-            this.btnSua_QLNV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnSua_QLNV.Click += new System.EventHandler(this.btnSua_QLNV_Click);
-            // 
-            // bunifuThinButton24
-            // 
-            this.bunifuThinButton24.ActiveBorderThickness = 1;
-            this.bunifuThinButton24.ActiveCornerRadius = 20;
-            this.bunifuThinButton24.ActiveFillColor = System.Drawing.SystemColors.HotTrack;
-            this.bunifuThinButton24.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton24.ActiveLineColor = System.Drawing.Color.White;
-            this.bunifuThinButton24.BackColor = System.Drawing.SystemColors.Control;
-            this.bunifuThinButton24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton24.BackgroundImage")));
-            this.bunifuThinButton24.ButtonText = "Xóa";
-            this.bunifuThinButton24.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton24.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton24.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton24.IdleBorderThickness = 3;
-            this.bunifuThinButton24.IdleCornerRadius = 20;
-            this.bunifuThinButton24.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton24.IdleForecolor = System.Drawing.SystemColors.HotTrack;
-            this.bunifuThinButton24.IdleLineColor = System.Drawing.SystemColors.HotTrack;
-            this.bunifuThinButton24.Location = new System.Drawing.Point(87, 149);
-            this.bunifuThinButton24.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton24.Name = "bunifuThinButton24";
-            this.bunifuThinButton24.Size = new System.Drawing.Size(247, 55);
-            this.bunifuThinButton24.TabIndex = 39;
-            this.bunifuThinButton24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton24.Click += new System.EventHandler(this.bunifuThinButton24_Click);
-            // 
-            // bunifuThinButton23
-            // 
-            this.bunifuThinButton23.ActiveBorderThickness = 1;
-            this.bunifuThinButton23.ActiveCornerRadius = 20;
-            this.bunifuThinButton23.ActiveFillColor = System.Drawing.SystemColors.HotTrack;
-            this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.White;
-            this.bunifuThinButton23.BackColor = System.Drawing.SystemColors.Control;
-            this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
-            this.bunifuThinButton23.ButtonText = "Thêm";
-            this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton23.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton23.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton23.IdleBorderThickness = 3;
-            this.bunifuThinButton23.IdleCornerRadius = 20;
-            this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton23.IdleForecolor = System.Drawing.SystemColors.HotTrack;
-            this.bunifuThinButton23.IdleLineColor = System.Drawing.SystemColors.HotTrack;
-            this.bunifuThinButton23.Location = new System.Drawing.Point(87, 76);
-            this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton23.Name = "bunifuThinButton23";
-            this.bunifuThinButton23.Size = new System.Drawing.Size(247, 55);
-            this.bunifuThinButton23.TabIndex = 38;
-            this.bunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton23.Click += new System.EventHandler(this.bunifuThinButton23_Click);
-            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::FlightManagement.Properties.Resources.icons8_paper_plane_641;
@@ -765,30 +790,31 @@
             this.pictureBox3.TabIndex = 45;
             this.pictureBox3.TabStop = false;
             // 
-            // bunifuThinButton21
+            // btnTim_QLNV
             // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.SystemColors.HotTrack;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.SystemColors.HotTrack;
-            this.bunifuThinButton21.BackColor = System.Drawing.SystemColors.Control;
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "Tìm";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.IdleBorderThickness = 3;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.SystemColors.HotTrack;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(451, 113);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(181, 48);
-            this.bunifuThinButton21.TabIndex = 36;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnTim_QLNV.ActiveBorderThickness = 1;
+            this.btnTim_QLNV.ActiveCornerRadius = 20;
+            this.btnTim_QLNV.ActiveFillColor = System.Drawing.Color.White;
+            this.btnTim_QLNV.ActiveForecolor = System.Drawing.SystemColors.HotTrack;
+            this.btnTim_QLNV.ActiveLineColor = System.Drawing.SystemColors.HotTrack;
+            this.btnTim_QLNV.BackColor = System.Drawing.SystemColors.Control;
+            this.btnTim_QLNV.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTim_QLNV.BackgroundImage")));
+            this.btnTim_QLNV.ButtonText = "Tìm";
+            this.btnTim_QLNV.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTim_QLNV.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTim_QLNV.ForeColor = System.Drawing.Color.SeaGreen;
+            this.btnTim_QLNV.IdleBorderThickness = 3;
+            this.btnTim_QLNV.IdleCornerRadius = 20;
+            this.btnTim_QLNV.IdleFillColor = System.Drawing.SystemColors.HotTrack;
+            this.btnTim_QLNV.IdleForecolor = System.Drawing.Color.White;
+            this.btnTim_QLNV.IdleLineColor = System.Drawing.Color.White;
+            this.btnTim_QLNV.Location = new System.Drawing.Point(560, 118);
+            this.btnTim_QLNV.Margin = new System.Windows.Forms.Padding(5);
+            this.btnTim_QLNV.Name = "btnTim_QLNV";
+            this.btnTim_QLNV.Size = new System.Drawing.Size(181, 48);
+            this.btnTim_QLNV.TabIndex = 36;
+            this.btnTim_QLNV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnTim_QLNV.Click += new System.EventHandler(this.btnTim_QLNV_Click);
             // 
             // btnClose_QLNV
             // 
@@ -801,25 +827,6 @@
             this.btnClose_QLNV.TabIndex = 20;
             this.btnClose_QLNV.UseVisualStyleBackColor = true;
             this.btnClose_QLNV.Click += new System.EventHandler(this.btnClose_QLNV_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::FlightManagement.Properties.Resources.icons8_fighter_jet_96;
-            this.pictureBox1.Location = new System.Drawing.Point(838, 110);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(99, 93);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 45;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::FlightManagement.Properties.Resources.icons8_paper_plane_64__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(826, 42);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(123, 105);
-            this.pictureBox2.TabIndex = 43;
-            this.pictureBox2.TabStop = false;
             // 
             // button10
             // 
@@ -857,17 +864,36 @@
             this.button4.TabIndex = 46;
             this.button4.UseVisualStyleBackColor = true;
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(144, 132);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(113, 20);
+            this.label17.TabIndex = 49;
+            this.label17.Text = "Mã nhân viên:";
+            // 
+            // errorMaNV_Tim
+            // 
+            this.errorMaNV_Tim.ContainerControl = this;
+            // 
+            // errorRegexMaNV
+            // 
+            this.errorRegexMaNV.ContainerControl = this;
+            // 
             // QuanLyNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1796, 914);
+            this.Controls.Add(this.label17);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.bunifuThinButton21);
+            this.Controls.Add(this.btnTim_QLNV);
             this.Controls.Add(this.txtTim_QLNV);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnClose_QLNV);
@@ -889,13 +915,15 @@
             this.gbThemNV.PerformLayout();
             this.gbXoaNV_QLNV.ResumeLayout(false);
             this.gbXoaNV_QLNV.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.gbSuaQuyen_QLNV.ResumeLayout(false);
             this.gbSuaQuyen_QLNV.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorQuyen_suaquyen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorMaNV_SuaQuyen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorMaNV_Tim)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorRegexMaNV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -918,7 +946,7 @@
         private System.Windows.Forms.TextBox txtDiaChi_TTNV;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtTim_QLNV;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
+        private Bunifu.Framework.UI.BunifuThinButton2 btnTim_QLNV;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton22;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton23;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton24;
@@ -971,5 +999,8 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.ErrorProvider errorMaNV_Tim;
+        private System.Windows.Forms.ErrorProvider errorRegexMaNV;
     }
 }

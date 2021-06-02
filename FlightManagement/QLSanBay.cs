@@ -38,6 +38,7 @@ namespace FlightManagement
         #region thêm sân bay
         private void btnThem_QLSB_Click(object sender, EventArgs e)
         {
+            
             if (string.IsNullOrEmpty(txtTenSB_QLSB.Text) || string.IsNullOrEmpty(txtMaSB_QLSB.Text) || string.IsNullOrEmpty(txtDiaChi_QLSB.Text) || string.IsNullOrEmpty(txtQuocGia_QLSB.Text))
             {
                 MessageBox.Show("Bạn phỉa điền đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -91,47 +92,56 @@ namespace FlightManagement
         #region xóa sân bay
         private void btnXoa_QLSB_Click(object sender, EventArgs e)
         {
-            List<string> listMaSB = new List<string>();
-            DataTable table = DataProvider.Instance.ExecuteQuery("SELECT MaSanBay FROM SANBAY");
-            foreach (DataRow item in table.Rows)
+            if (string.IsNullOrEmpty(txtMaSB_QLSB.Text))
             {
-                string x = item[0].ToString();
-                
-                listMaSB.Add(x);
-            }
-           
-            int flag = 0;
-            string masb = txtMaSB_QLSB.Text;
-            foreach (string item in listMaSB)
-            {
-                 
-                if (item.Trim() == masb.Trim())
-                {
-                    flag = 1;
-                }    
-                 
-            }
-            if (flag == 0)
-            {
-                MessageBox.Show("Mã sân bay này chưa tồn tại");
-            }
+                errorMaSB.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                errorMaSB.SetError(txtMaSB_QLSB, "Vui lòng nhập vào mã sân bay");
+            }    
             else
             {
-                string query = string.Format("DELETE FROM SANBAY WHERE MaSanBay = '{0}'", txtMaSB_QLSB.Text);
-              
-                int a = DataProvider.Instance.ExecuteNonQuery(query);
-                
-                if (a > 0)
+                List<string> listMaSB = new List<string>();
+                DataTable table = DataProvider.Instance.ExecuteQuery("SELECT MaSanBay FROM SANBAY");
+                foreach (DataRow item in table.Rows)
                 {
-                    MessageBox.Show("Xóa sân bay thành công");
-                    LoadListSanBay();
+                    string x = item[0].ToString();
+
+                    listMaSB.Add(x);
+                }
+
+                int flag = 0;
+                string masb = txtMaSB_QLSB.Text;
+                foreach (string item in listMaSB)
+                {
+
+                    if (item.Trim() == masb.Trim())
+                    {
+                        flag = 1;
+                    }
+
+                }
+                if (flag == 0)
+                {
+                    MessageBox.Show("Mã sân bay này chưa tồn tại");
                 }
                 else
                 {
-                    MessageBox.Show("Xóa sân bay không thành công");
+                    string query = string.Format("DELETE FROM SANBAY WHERE MaSanBay = '{0}'", txtMaSB_QLSB.Text);
 
+                    int a = DataProvider.Instance.ExecuteNonQuery(query);
+
+                    if (a > 0)
+                    {
+                        MessageBox.Show("Xóa sân bay thành công");
+                        LoadListSanBay();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Xóa sân bay không thành công");
+
+                    }
                 }
-            }
+            }    
+            
         }
 
         #endregion
@@ -140,7 +150,52 @@ namespace FlightManagement
         #region sửa sân bay
         private void btnSua_QLSB_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(txtTenSB_QLSB.Text) || string.IsNullOrEmpty(txtMaSB_QLSB.Text) || string.IsNullOrEmpty(txtDiaChi_QLSB.Text) || string.IsNullOrEmpty(txtQuocGia_QLSB.Text))
+            {
+                MessageBox.Show("Bạn phỉa điền đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                // sau khi thông tin đã được điền đầy đủ
+                // kiểm tra xem manv đã tồn tại hay chưa
 
+                List<string> listMaSB = SanBayController.Instance.ListMaSB();
+                int flag = 0;
+                string masb = txtMaSB_QLSB.Text;
+                foreach (string item in listMaSB)
+                {
+                    if (item.Trim() == masb.Trim())
+                    {
+                        flag = 1;
+                    }
+                }
+                if (flag == 1)
+                {
+                    string query = string.Format("UPDATE SANBAY SET TenSanBay = N'{0}', QuocGia = N'{1}', DiaChi= N'{2}' WHERE MaSanBay = '{3}'", txtTenSB_QLSB.Text, txtQuocGia_QLSB.Text, txtDiaChi_QLSB.Text,txtMaSB_QLSB.Text);
+
+                    int a = DataProvider.Instance.ExecuteNonQuery(query);
+
+                    if (a > 0)
+                    {
+                        MessageBox.Show("Cập nhật thông tin sân bay thành công");
+                        LoadListSanBay();
+                        txtMaSB_QLSB.Text = "";
+                        txtTenSB_QLSB.Text = "";
+                        txtDiaChi_QLSB.Text = "";
+                        txtQuocGia_QLSB.Text = "";
+                    }
+                    else
+                    {
+                        MessageBox.Show("Cập nhật thông tin sân bay thành công");
+
+                    }
+                   
+                }
+                else
+                {
+                    MessageBox.Show("Mã sân bay này chưa tồn tại");
+                }
+            }
         }
         #endregion
 

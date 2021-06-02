@@ -18,5 +18,5 @@ D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightMana
 D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
 D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
 D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
-D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.BanVe1.resources
-D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.BanVe2.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\bin\Debug\Bunifu_UI_v1.52.dll
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.HanhKhach.resources

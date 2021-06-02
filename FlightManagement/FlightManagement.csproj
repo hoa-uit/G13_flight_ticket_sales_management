@@ -50,12 +50,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BanVe1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BanVe1.Designer.cs">
-      <DependentUpon>BanVe1.cs</DependentUpon>
-    </Compile>
     <Compile Include="ChangePassword.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +85,12 @@
     <Compile Include="Flight Management.Designer.cs">
       <DependentUpon>Flight Management.cs</DependentUpon>
     </Compile>
+    <Compile Include="HanhKhach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HanhKhach.Designer.cs">
+      <DependentUpon>HanhKhach.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +101,7 @@
     <Compile Include="Model\CTDTNam.cs" />
     <Compile Include="Model\CTDTThang.cs" />
     <Compile Include="Model\Ghe.cs" />
+    <Compile Include="Model\HanhKhach.cs" />
     <Compile Include="Model\NhanVien.cs" />
     <Compile Include="Model\SanBay.cs" />
     <Compile Include="Model\ThamSo.cs" />
@@ -136,9 +137,6 @@
     <Compile Include="Support.Designer.cs">
       <DependentUpon>Support.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="BanVe1.resx">
-      <DependentUpon>BanVe1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ChangePassword.resx">
       <DependentUpon>ChangePassword.cs</DependentUpon>
     </EmbeddedResource>
@@ -150,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Flight Management.resx">
       <DependentUpon>Flight Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HanhKhach.resx">
+      <DependentUpon>HanhKhach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

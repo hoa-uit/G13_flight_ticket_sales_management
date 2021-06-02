@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -65,9 +66,21 @@ namespace FlightManagement
 
         private void btnSave_ThemNhanVien_Click(object sender, EventArgs e)
         {
+            Regex reg = new Regex("^[0-9]{8}$");
+            Regex reg2 = new Regex("^[0]{1}[1-9]{1}[0-9]{8}$");
             if (string.IsNullOrEmpty(txtMaNV_ThemNV.Text) || string.IsNullOrEmpty(txtTenNV_ThemNV.Text) || string.IsNullOrEmpty(txtSDT_ThemNV.Text) || string.IsNullOrEmpty(txtDiaChi_ThemNV.Text) 
                 || string.IsNullOrEmpty(txtPassWord_ThemNV.Text) || cbGioiTinh_ThemNV.SelectedIndex == -1 || cbQuyen_ThemNV.SelectedIndex == -1)
             {
+                if (reg.IsMatch(txtMaNV_ThemNV.Text)==false)
+                {
+                    errorMaNV_Tim.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                    errorMaNV_Tim.SetError(txtMaNV_ThemNV, "Mã số nhân viên là chuỗi 8 kí tự số");
+                }
+                if (reg2.IsMatch(txtSDT_ThemNV.Text) == false)
+                {
+                    errorMaNV_SuaQuyen.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                    errorQuyen_suaquyen.SetError(txtSDT_ThemNV, "Định dạng số điện thoại chưa đúng");
+                }    
                 MessageBox.Show("Bạn phỉa điền đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }   
             else
@@ -128,35 +141,45 @@ namespace FlightManagement
 
         private void button1_Click(object sender, EventArgs e)
         {
-            List<string> listaccount = GetListMaNV.Instance.ListMSNV_Account();
-            int flag = 0;
-            string msnv = txtMaNV_XoaNV.Text;
-            foreach (string item in listaccount)
+            Regex reg = new Regex("^[0-9]{8}$");
+            if (string.IsNullOrEmpty(txtMaNV_XoaNV.Text) || reg.IsMatch(txtMaNV_XoaNV.Text) == false)
             {
-                if (item.Trim() == msnv.Trim())
-                    flag = 1;
-            }
-            if (flag == 0)
-            {
-                MessageBox.Show("MaNV này chưa tồn tại");
-            }
+                errorMaNV_Tim.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                errorMaNV_Tim.SetError(txtMaNV_XoaNV, "Mã nhân viên trống hoặc chưa đúng cú pháp, mã nhân viên là chuỗi 8 kí tự số");
+            }   
             else
             {
-                string query = string.Format("DELETE FROM NHANVIEN WHERE MaNV = '{0}'", txtMaNV_XoaNV.Text);
-                string query2 = string.Format("DELETE FROM TAIKHOANDANHNHAP WHERE MaNhanVien = '{0}'", txtMaNV_XoaNV.Text);
-                int a = DataProvider.Instance.ExecuteNonQuery(query);
-                int b= DataProvider.Instance.ExecuteNonQuery(query2);
-                if (a > 0  && b > 0)
+                List<string> listaccount = GetListMaNV.Instance.ListMSNV_Account();
+                int flag = 0;
+                string msnv = txtMaNV_XoaNV.Text;
+                foreach (string item in listaccount)
                 {
-                    MessageBox.Show("Xóa nhân viên thành công");
-                    LoadListNV();
+                    if (item.Trim() == msnv.Trim())
+                        flag = 1;
+                }
+                if (flag == 0)
+                {
+                    MessageBox.Show("MaNV này chưa tồn tại");
                 }
                 else
                 {
-                    MessageBox.Show("Xóa nhân viên không thành công");
+                    string query = string.Format("DELETE FROM NHANVIEN WHERE MaNV = '{0}'", txtMaNV_XoaNV.Text);
+                    string query2 = string.Format("DELETE FROM TAIKHOANDANHNHAP WHERE MaNhanVien = '{0}'", txtMaNV_XoaNV.Text);
+                    int a = DataProvider.Instance.ExecuteNonQuery(query);
+                    int b = DataProvider.Instance.ExecuteNonQuery(query2);
+                    if (a > 0 && b > 0)
+                    {
+                        MessageBox.Show("Xóa nhân viên thành công");
+                        LoadListNV();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Xóa nhân viên không thành công");
 
+                    }
                 }
-            }
+            }    
+           
         }
 
         #endregion
@@ -210,5 +233,63 @@ namespace FlightManagement
              
         }
         #endregion
+
+
+        #region tìm nhân viên
+        private void btnTim_QLNV_Click(object sender, EventArgs e)
+        {
+            Regex reg = new Regex("^[0-9]{8}$");
+            if (reg.IsMatch(txtTim_QLNV.Text))
+            {
+                if (string.IsNullOrEmpty(txtTim_QLNV.Text))
+                {
+                    errorMaNV_Tim.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                    errorMaNV_Tim.SetError(txtTim_QLNV, "Hãy nhập mã số nhân viên");
+                }
+                else
+                {
+                    List<string> listaccount = GetListMaNV.Instance.ListMSNV_Account();
+                    int flag = 0;
+                    string msnv = txtTim_QLNV.Text;
+                    foreach (string item in listaccount)
+                    {
+                        if (item.Trim() == msnv.Trim())
+                            flag = 1;
+                    }
+                    if (flag == 1)
+                    {
+                        string query = string.Format("SELECT * FROM NHANVIEN WHERE MaNV = '{0}'", txtTim_QLNV.Text);
+                        dtgvNhanVien_QLNV.DataSource = DataProvider.Instance.ExecuteQuery(query);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Mã số nhân viên chưa tồn tại");
+                    }
+                }
+            }    
+            else
+            {
+                errorMaNV_Tim.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                errorMaNV_Tim.SetError(txtTim_QLNV, "Mã số sinh viên là dãy 8 kí tự số");
+            }
+            
+
+        }
+
+        private void txtTim_QLNV_TextChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtTim_QLNV.Text))
+            {
+                errorMaNV_Tim.BlinkStyle = ErrorBlinkStyle.AlwaysBlink;
+                errorMaNV_Tim.SetError(txtTim_QLNV, "Hãy nhập mã số nhân viên");
+            }
+            else
+            {
+                errorMaNV_Tim.SetError(txtTim_QLNV, "");
+            }
+        }
+        #endregion
+
+
     }
 }

@@ -38,9 +38,10 @@ namespace FlightManagement.Model
             }
         }
 
-        public ThamSo()
+        public ThamSo(string TenTS, int GiaTri)
         {
-
+            this.GiaTri = GiaTri;
+            this.TenThamSo = TenTS;
         }
         public ThamSo(DataRow row)
         {

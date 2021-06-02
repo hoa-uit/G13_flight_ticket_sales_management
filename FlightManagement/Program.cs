@@ -16,7 +16,7 @@ namespace FlightManagement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BanVe1());
+            Application.Run(new NhanLichChuyenBay());
         }
     }
 }

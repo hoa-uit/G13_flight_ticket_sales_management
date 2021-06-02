@@ -57,35 +57,38 @@ namespace FlightManagement.Controller
 
             }
         }
-        public bool check(int FlyTime, int NumTranAirport, int MinWaitTIme, int MaxWaitTime)
+        public bool checkTGBay(int FlyTime)
         {
             if (FlyTime < this.Min_Fly_Time)
             {
-                MessageBox.Show("Thời Gian Bay Không Hợp Lệ ", "Note", MessageBoxButtons.OK);
                 return false;
 
-
             }
-            else
+            return true;
+
+
+        }
+
+        public bool checkSoSanBayTrungGian(int soSBTG)
+        {
+            if (soSBTG > this.Num_Tran_Airpot)
             {
-                if (NumTranAirport > this.Num_Tran_Airpot)
-                {
-                    MessageBox.Show("Số Sân Bay Trung Gian Không Hợp Lệ", "Note", MessageBoxButtons.OK);
-                    return false;
-                }
-                else
-                {
-                    if ((MaxWaitTime > this.Max_Wait_Time) || (MinWaitTIme < this.Min_Wait_Time) && (MinWaitTIme != -1))
-                    {
-                        MessageBox.Show("Thời gian dừng tại sân bay trung gian không hợp lệ", "Note", MessageBoxButtons.OK);
-                        return false;
-                    }
-                    else
-                        return true;
-                }
+                return false;
             }
+            return true;
+        }
 
-
+        public bool checkTGcho (int max, int min)
+        {
+            if (max == -1 )
+            {
+                return false;
+            }   
+           else  if (max > this.Max_Wait_Time || min < this.Min_Wait_Time)
+            {
+                return true;
+            }
+                return false;
         }
     }
 }

@@ -38,5 +38,25 @@ namespace FlightManagement.Controller
             }
             return ListChuyenBay;
         }
+        public bool checkMaCB (string MACB)
+        {
+            List<string> listMaCB = new List<string>();
+            DataTable table = DataProvider.Instance.ExecuteQuery("SELECT MaChuyenBay FROM CHUYENBAY");
+            foreach (DataRow item in table.Rows)
+            {
+                string x = item[0].ToString();
+                listMaCB.Add(x);
+            }
+
+            foreach (string macb in listMaCB)
+            {
+                if (macb.Trim() == MACB.Trim())
+                {
+                    return true;
+                }    
+            }
+            return false;
+        }
+
     }
 }

@@ -21,7 +21,7 @@ namespace FlightManagement
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btnClose_changepassword_Click(object sender, EventArgs e)

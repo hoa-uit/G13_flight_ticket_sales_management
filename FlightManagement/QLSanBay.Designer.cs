@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(QLSanBay));
             this.label1 = new System.Windows.Forms.Label();
             this.txtMaSB_QLSB = new System.Windows.Forms.TextBox();
@@ -53,10 +54,12 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.errorMaSB = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dtgSanBay_QLSB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorMaSB)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -337,6 +340,10 @@
             this.button4.TabIndex = 53;
             this.button4.UseVisualStyleBackColor = true;
             // 
+            // errorMaSB
+            // 
+            this.errorMaSB.ContainerControl = this;
+            // 
             // QLSanBay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -370,6 +377,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorMaSB)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -401,5 +409,6 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.ErrorProvider errorMaSB;
     }
 }

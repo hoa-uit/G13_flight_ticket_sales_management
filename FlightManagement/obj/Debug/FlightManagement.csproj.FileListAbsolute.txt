@@ -1,0 +1,45 @@
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\bin\Debug\FlightManagement.exe.config
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\bin\Debug\FlightManagement.exe
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\bin\Debug\FlightManagement.pdb
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.Login.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.exe
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.pdb
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.csprojAssemblyReference.cache
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.Support.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\bin\Debug\Bunifu_UI_v1.52.dll
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.HanhKhach.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\bin\Debug\FlightManagement.exe.config
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\bin\Debug\FlightManagement.exe
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\bin\Debug\FlightManagement.pdb
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.HanhKhach.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.Login.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.Support.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.exe
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.pdb
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.Ve.resources

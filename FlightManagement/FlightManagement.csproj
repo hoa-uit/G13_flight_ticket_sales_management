@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{53D76DD8-67F4-42CA-9D85-99B08E51E791}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FlightManagement</RootNamespace>
+    <AssemblyName>FlightManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>C:\Users\THAI\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GUI\BanVe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\BanVe.Designer.cs">
+      <DependentUpon>BanVe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\BaoCao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\BaoCao.Designer.cs">
+      <DependentUpon>BaoCao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\CheckLogin.cs" />
+    <Compile Include="Controller\ChuyenBayController.cs" />
+    <Compile Include="Controller\CTDTNamController.cs" />
+    <Compile Include="Controller\CTDTThangController.cs" />
+    <Compile Include="Controller\DataProvider.cs" />
+    <Compile Include="Controller\GetListMaNV.cs" />
+    <Compile Include="Controller\GheController.cs" />
+    <Compile Include="Controller\HangVeController.cs" />
+    <Compile Include="Controller\NhanVienController.cs" />
+    <Compile Include="Controller\SanBayController.cs" />
+    <Compile Include="Controller\SendCode.cs" />
+    <Compile Include="Controller\ThamSoController.cs" />
+    <Compile Include="Controller\TraCuuChuyenBayController.cs" />
+    <Compile Include="GUI\DATCHO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DATCHO.Designer.cs">
+      <DependentUpon>DATCHO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DoanhThuNam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DoanhThuNam.Designer.cs">
+      <DependentUpon>DoanhThuNam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DoanhThuThang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DoanhThuThang.Designer.cs">
+      <DependentUpon>DoanhThuThang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Flight Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Flight Management.Designer.cs">
+      <DependentUpon>Flight Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Hotro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Hotro.Designer.cs">
+      <DependentUpon>Hotro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ChiTietCB.cs" />
+    <Compile Include="Model\ChuyenBay.cs" />
+    <Compile Include="Model\CTDTNam.cs" />
+    <Compile Include="Model\CTDTThang.cs" />
+    <Compile Include="Model\Ghe.cs" />
+    <Compile Include="Model\HangVe.cs" />
+    <Compile Include="Model\HanhKhach.cs" />
+    <Compile Include="Model\NhanVien.cs" />
+    <Compile Include="Model\SanBay.cs" />
+    <Compile Include="Model\ThamSo.cs" />
+    <Compile Include="Model\TimKiem.cs" />
+    <Compile Include="Model\timkiemve.cs" />
+    <Compile Include="Model\TraCuuChuyenBay.cs" />
+    <Compile Include="GUI\NhanLichChuyenBay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\NhanLichChuyenBay.Designer.cs">
+      <DependentUpon>NhanLichChuyenBay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PHIEUDATCHO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PHIEUDATCHO.Designer.cs">
+      <DependentUpon>PHIEUDATCHO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GUI\QLHangVe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QLHangVe.Designer.cs">
+      <DependentUpon>QLHangVe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QLSanBay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QLSanBay.Designer.cs">
+      <DependentUpon>QLSanBay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QuanLyNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QuanLyNhanVien.Designer.cs">
+      <DependentUpon>QuanLyNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ReportMonth.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportMonth.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\ReportYear.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportYear.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Setting.Designer.cs">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Gioithieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Gioithieu.Designer.cs">
+      <DependentUpon>Gioithieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Thanhtoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Thanhtoan.Designer.cs">
+      <DependentUpon>Thanhtoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TimKiemPDC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\TimKiemPDC.Designer.cs">
+      <DependentUpon>TimKiemPDC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TimKiemVe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\TimKiemVe.Designer.cs">
+      <DependentUpon>TimKiemVe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TraCuuCB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\TraCuuCB.Designer.cs">
+      <DependentUpon>TraCuuCB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TraCuuPDC2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\TraCuuPDC2.Designer.cs">
+      <DependentUpon>TraCuuPDC2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TraCuuVe2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\TraCuuVe2.Designer.cs">
+      <DependentUpon>TraCuuVe2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Ve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Ve.Designer.cs">
+      <DependentUpon>Ve.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GUI\BanVe.resx">
+      <DependentUpon>BanVe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\BaoCao.resx">
+      <DependentUpon>BaoCao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DATCHO.resx">
+      <DependentUpon>DATCHO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DoanhThuNam.resx">
+      <DependentUpon>DoanhThuNam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DoanhThuThang.resx">
+      <DependentUpon>DoanhThuThang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Flight Management.resx">
+      <DependentUpon>Flight Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Hotro.resx">
+      <DependentUpon>Hotro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NhanLichChuyenBay.resx">
+      <DependentUpon>NhanLichChuyenBay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PHIEUDATCHO.resx">
+      <DependentUpon>PHIEUDATCHO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="GUI\QLHangVe.resx">
+      <DependentUpon>QLHangVe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QLSanBay.resx">
+      <DependentUpon>QLSanBay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QuanLyNhanVien.resx">
+      <DependentUpon>QuanLyNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ReportMonth.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportMonth.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ReportYear.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportYear.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Setting.resx">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Gioithieu.resx">
+      <DependentUpon>Gioithieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Thanhtoan.resx">
+      <DependentUpon>Thanhtoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TimKiemPDC.resx">
+      <DependentUpon>TimKiemPDC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TimKiemVe.resx">
+      <DependentUpon>TimKiemVe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TraCuuCB.resx">
+      <DependentUpon>TraCuuCB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TraCuuPDC2.resx">
+      <DependentUpon>TraCuuPDC2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TraCuuVe2.resx">
+      <DependentUpon>TraCuuVe2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Ve.resx">
+      <DependentUpon>Ve.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-airplane-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-microsoft-admin-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-microsoft-admin-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-client-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-business-report-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-data-setting-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manage2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-airplane-landing-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-airplane-take-off-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-airplane-take-off-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-phone-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sign-pointing-right-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pain-point-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pain-point-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pain-point-502.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-customer-support-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cloud-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-window-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minimize-window-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-window-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-airplane-take-off-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-male-104.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-male-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ẢNH NỀN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-airplane-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-facebook-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-instagram-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-zalo-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\there-are-two-emergency-exits-at-the-rear,-four-in-the-middle-and-two-at-the-front-of-the-cabin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\người mẫu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\không nền.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-small-airplane-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-airplane-take-off-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\change password.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\change password1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\change password2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-reset-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-airplane-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-airplane-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-window-1001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-window-1002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\đàn ông.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-fighter-jet-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-fighter-jet-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ảnh phi công.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-paper-plane-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-airplane-take-off-100 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-paper-plane-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-paper-plane-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ảnh không nền cô gái.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conifer-booking-a-flight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cherry-happy-to-flight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flame-flight-is-awaiting1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khung br.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giới thiệu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\service.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\park-tickets-couple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-flight %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticket %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analytics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-service.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\youtube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\youtube %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instagram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\youtube %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\youtube %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1f0055a85c327bbdd9dd27392a8f6199.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1f0055a85c327bbdd9dd27392a8f61991.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flight1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\park-tickets-couple1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plane1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-flight %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analytics1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seat1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information-button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-service1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticket %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backround-changepassw1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backround-gt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form Hỗ trợ-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backround-setting2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-online-flight-booking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ảnh không nền cô gái1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flame-flight-is-awaiting2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ảnh không nền cô gái2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flame-flight-is-awaiting3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cherry-happy-to-flight1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

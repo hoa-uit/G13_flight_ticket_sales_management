@@ -1,0 +1,727 @@
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\bin\Debug\FlightManagement.exe.config
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\bin\Debug\FlightManagement.exe
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\bin\Debug\FlightManagement.pdb
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.Login.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.exe
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.pdb
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.csprojAssemblyReference.cache
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.Support.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\bin\Debug\Bunifu_UI_v1.52.dll
+D:\Học kì 4\Nhập môn công nghệ phần mềm\FlightManagement\FlightManagement\obj\Debug\FlightManagement.HanhKhach.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\bin\Debug\FlightManagement.exe.config
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\bin\Debug\FlightManagement.exe
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\bin\Debug\FlightManagement.pdb
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.HanhKhach.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.Login.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.Support.resources
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.exe
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.pdb
+C:\Users\DELL\Documents\first step to create application\App Chỉnh Sửa\FirstApp\G13_flight_ticket_sales_management\FlightManagement\obj\Debug\FlightManagement.Ve.resources
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\bin\Debug\FlightManagement.exe.config
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\bin\Debug\FlightManagement.exe
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\bin\Debug\FlightManagement.pdb
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.csprojAssemblyReference.cache
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.HanhKhach.resources
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.Login.resources
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.Support.resources
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.Ve.resources
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.exe
+C:\Users\THAI\Desktop\New folder\G13_flight_ticket_sales_management-TranNhut\G13_flight_ticket_sales_management-TranNhut\FlightManagement\obj\Debug\FlightManagement.pdb
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.HanhKhach.resources
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Login.resources
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Support.resources
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Ve.resources
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.exe
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.pdb
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe.config
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.pdb
+C:\Users\DELL\Documents\first step to create application\Offical App\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe.config
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.pdb
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csprojAssemblyReference.cache
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.HanhKhach.resources
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Login.resources
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Support.resources
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Ve.resources
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.exe
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.pdb
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\stdole.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BaoCao.resources
+C:\Users\THAI\Desktop\code\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLHangVe.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe.config
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.pdb
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\ShockwaveFlashObjects.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\stdole.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csprojAssemblyReference.cache
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BaoCao.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.HanhKhach.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Login.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLHangVe.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Support.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Ve.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.exe
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\MINE\End\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.pdb
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BaoCao.resources
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.HanhKhach.resources
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Login.resources
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLHangVe.resources
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Support.resources
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Ve.resources
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.exe
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.pdb
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe.config
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.pdb
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\stdole.dll
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\DELL\Desktop\New folder (2)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe.config
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.pdb
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\AxShockwaveFlashObjects.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.Shared.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\ShockwaveFlashObjects.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\stdole.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csprojAssemblyReference.cache
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BaoCao.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.HanhKhach.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Login.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLHangVe.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Support.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Ve.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.exe
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.pdb
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DATCHO.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.PHIEUDATCHO.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TraCuuCB.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TraCuuPDC2.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone master\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TraCuuVe2.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\FlightManagement.exe.config
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\FlightManagement.exe
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\FlightManagement.pdb
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\stdole.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.csprojAssemblyReference.cache
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.BaoCao.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.DATCHO.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.Login.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.PHIEUDATCHO.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.QLHangVe.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.Support.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.TraCuuCB.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.TraCuuPDC2.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.TraCuuVe2.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.Ve.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.exe
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-master\-N-NH-P-M-N-CNPM-master\FlightManagement\obj\Debug\FlightManagement.pdb
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.csprojAssemblyReference.cache
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.BaoCao.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.DATCHO.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.Login.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.PHIEUDATCHO.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.QLHangVe.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.TraCuuCB.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.TraCuuPDC2.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.TraCuuVe2.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.Ve.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.exe
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.pdb
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\FlightManagement.exe.config
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\FlightManagement.exe
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\FlightManagement.pdb
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\stdole.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.Gioithieu.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.Thanhtoan.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-Lyly\FlightManagement\obj\Debug\FlightManagement.Hotro.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\FlightManagement.exe.config
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\FlightManagement.exe
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\FlightManagement.pdb
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\AxShockwaveFlashObjects.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\CrystalDecisions.Shared.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\ShockwaveFlashObjects.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\stdole.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.csprojAssemblyReference.cache
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.BaoCao.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.DATCHO.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.Hotro.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.Login.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.PHIEUDATCHO.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.QLHangVe.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.Gioithieu.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.Thanhtoan.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.TraCuuCB.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.TraCuuPDC2.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.TraCuuVe2.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.Ve.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.exe
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.pdb
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.TimKiemVe.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\-N-NH-P-M-N-CNPM-Thaipro\FlightManagement\obj\Debug\FlightManagement.TimKiemPDC.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe.config
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.pdb
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\stdole.dll
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BaoCao.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DATCHO.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Hotro.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Login.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.PHIEUDATCHO.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLHangVe.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Gioithieu.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Thanhtoan.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TimKiemPDC.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TimKiemVe.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TraCuuCB.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TraCuuPDC2.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TraCuuVe2.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Ve.resources
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.exe
+C:\Users\DELL\Desktop\chỉnh lại\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.pdb
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe.config
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.pdb
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\AxShockwaveFlashObjects.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.Shared.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\ShockwaveFlashObjects.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\stdole.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csprojAssemblyReference.cache
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BaoCao.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DATCHO.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Hotro.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Login.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.PHIEUDATCHO.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLHangVe.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Gioithieu.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Thanhtoan.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TimKiemPDC.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TimKiemVe.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TraCuuCB.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TraCuuPDC2.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TraCuuVe2.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Ve.resources
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.exe
+D:\Y2_II\SE104_L21_NHẬP MÔN CNPM\From GitHub\ver9-ne-he-haha\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.pdb
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\FlightManagement.exe.config
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\FlightManagement.exe
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\FlightManagement.pdb
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\stdole.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.csprojAssemblyReference.cache
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.BaoCao.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.DATCHO.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.Hotro.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.Login.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.PHIEUDATCHO.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.QLHangVe.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.QuanLyNhanVien.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.Gioithieu.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.Thanhtoan.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.TimKiemPDC.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.TimKiemVe.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.TraCuuCB.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.TraCuuPDC2.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.TraCuuVe2.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.Ve.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.exe
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-hoa\-N-NH-P-M-N-CNPM-hoa\FlightManagement\obj\Debug\FlightManagement.pdb
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe.config
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.pdb
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\stdole.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BaoCao.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DATCHO.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Hotro.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Login.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.PHIEUDATCHO.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLHangVe.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Gioithieu.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Thanhtoan.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TimKiemPDC.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TimKiemVe.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TraCuuCB.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TraCuuPDC2.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TraCuuVe2.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Ve.resources
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.exe
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.pdb
+C:\Users\DELL\Desktop\New folder (3)\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.txtMNV_Them_QLNV.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\FlightManagement.exe.config
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\FlightManagement.exe
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\FlightManagement.pdb
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\stdole.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.csprojAssemblyReference.cache
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.csproj.ResolveComReference.cache
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.BaoCao.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.DATCHO.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.Hotro.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.Login.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.PHIEUDATCHO.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.QLHangVe.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.txtMNV_Them_QLNV.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.Gioithieu.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.Thanhtoan.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.TimKiemPDC.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.TimKiemVe.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.TraCuuCB.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.TraCuuPDC2.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.TraCuuVe2.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.Ve.resources
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.exe
+C:\Users\THAI\Desktop\-N-NH-P-M-N-CNPM-groub13\-N-NH-P-M-N-CNPM-groub13\FlightManagement\obj\Debug\FlightManagement.pdb
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe.config
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.exe
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\FlightManagement.pdb
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\AxShockwaveFlashObjects.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.Shared.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\ShockwaveFlashObjects.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\stdole.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csprojAssemblyReference.cache
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.ResolveComReference.cache
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BanVe.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.BaoCao.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.ChangePassword.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DATCHO.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuNam.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.DoanhThuThang.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Flight_Management.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Hotro.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Login.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.NhanLichChuyenBay.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.PHIEUDATCHO.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Properties.Resources.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLHangVe.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.QLSanBay.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.txtMNV_Them_QLNV.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Setting.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Gioithieu.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Thanhtoan.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TimKiemPDC.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TimKiemVe.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TraCuuCB.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TraCuuPDC2.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.TraCuuVe2.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.Ve.resources
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.GenerateResource.cache
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CoreCompileInputs.cache
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.csproj.CopyComplete
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.exe
+D:\NHẬP MÔN CNPM\ĐỒ ÁN\clone finnaly\-N-NH-P-M-N-CNPM\FlightManagement\obj\Debug\FlightManagement.pdb
